@@ -1,7 +1,7 @@
 import { getFeature } from "@freelensapp/feature-core";
 import { registerInjectables } from "./register-injectables";
-export const clusterSidebarFeature = getFeature({
-  id: "cluster-side-feature",
+export const routingFeature = getFeature({
+  id: "routing",
 
   register: (di) => {
     registerInjectables(di);

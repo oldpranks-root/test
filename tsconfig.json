@@ -1,4 +1,12 @@
 {
-  "extends": "@freelensapp/typescript/config/base.json",
-  "include": ["**/*.ts"]
+  "extends": "../../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "."
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
