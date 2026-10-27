@@ -1,0 +1,78 @@
+/**
+ * Copyright (c) Freelens Authors. All rights reserved.
+ * Copyright (c) OpenLens Authors. All rights reserved.
+ * Licensed under MIT License. See LICENSE in root directory for more information.
+ */
+
+import { hasOwnProperty, hasTypedProperty, isObject, isString } from "@freelensapp/utilities";
+
+import type { CatalogEntity } from "./catalog-entity";
+
+const graphemeSegmenter = new Intl.Segmenter(undefined, { granularity: "grapheme" });
+
+function* iterateGraphemes(src: string): IterableIterator<string> {
+  for (const { segment } of graphemeSegmenter.segment(src)) {
+    yield segment;
+  }
+}
+
+function getNameParts(name: string): string[] {
+  const byWhitespace = name.split(/\s+/);
+
+  if (byWhitespace.length > 1) {
+    return byWhitespace;
+  }
+
+  const byDashes = name.split(/[-_]+/);
+
+  if (byDashes.length > 1) {
+    return byDashes;
+  }
+
+  return name.split(/@+/);
+}
+
+export function limitGraphemeLengthOf(src: string, count: number): string {
+  return [...iterateGraphemes(src)].slice(0, count).join("");
+}
+
+export function computeDefaultShortName(name: string) {
+  if (!name || typeof name !== "string") {
+    return "??";
+  }
+
+  const [rawFirst, rawSecond, rawThird] = getNameParts(name);
+  const first = [...iterateGraphemes(rawFirst)];
+  const second = rawSecond ? [...iterateGraphemes(rawSecond)] : first.slice(1);
+  const third = rawThird ? [...iterateGraphemes(rawThird)] : [];
+
+  return [first[0], second[0], third[0]].filter(Boolean).join("");
+}
+
+export function getShortName(entity: CatalogEntity): string {
+  return entity.metadata.shortName || computeDefaultShortName(entity.getName());
+}
+
+export function getIconColourHash(entity: CatalogEntity): string {
+  return `${entity.metadata.name}-${entity.metadata.source}`;
+}
+
+export function getIconBackground(entity: CatalogEntity): string | undefined {
+  if (isObject(entity.spec.icon)) {
+    if (hasTypedProperty(entity.spec.icon, "background", isString)) {
+      return entity.spec.icon.background;
+    }
+
+    return hasOwnProperty(entity.spec.icon, "src") ? "transparent" : undefined;
+  }
+
+  return undefined;
+}
+
+export function getIconMaterial(entity: CatalogEntity): string | undefined {
+  if (isObject(entity.spec.icon) && hasTypedProperty(entity.spec.icon, "material", isString)) {
+    return entity.spec.icon.material;
+  }
+
+  return undefined;
+}

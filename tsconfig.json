@@ -1,29 +1,4 @@
 {
-  "compilerOptions": {
-    "jsx": "react-jsx",
-    "target": "ESNext",
-    "module": "ESNext",
-    "lib": ["ES2025", "DOM", "DOM.Iterable"],
-    "moduleResolution": "Bundler",
-    "sourceMap": true,
-    "strict": true,
-    "noImplicitAny": true,
-    "noUnusedLocals": true,
-    "noImplicitReturns": true,
-    "isolatedModules": true,
-    "skipLibCheck": true,
-    "allowJs": false,
-    "esModuleInterop": true,
-    "verbatimModuleSyntax": false,
-    "traceResolution": false,
-    "resolveJsonModule": true,
-    "useDefineForClassFields": true
-  },
-  "ts-node": {
-    "transpileOnly": true,
-    "compilerOptions": {
-      "module": "CommonJS"
-    }
-  },
-  "exclude": ["node_modules"]
+  "extends": "@freelensapp/typescript/config/base.json",
+  "include": ["**/*.ts"]
 }
