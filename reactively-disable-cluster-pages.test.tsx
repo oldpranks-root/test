@@ -1,0 +1,80 @@
+/**
+ * Copyright (c) Freelens Authors. All rights reserved.
+ * Copyright (c) OpenLens Authors. All rights reserved.
+ * Licensed under MIT License. See LICENSE in root directory for more information.
+ */
+
+import { act } from "@testing-library/react";
+import { computed, observable, runInAction } from "mobx";
+import { beforeEach, describe, expect, it } from "vitest";
+import { getApplicationBuilder } from "../../../renderer/components/test-utils/get-application-builder";
+
+import type { RenderResult } from "@testing-library/react";
+import type { IObservableValue } from "mobx";
+
+import type { ApplicationBuilder } from "../../../renderer/components/test-utils/get-application-builder";
+import type { TestExtensionRenderer } from "../../../renderer/components/test-utils/get-extension-fake";
+
+describe("reactively disable cluster pages", () => {
+  let builder: ApplicationBuilder;
+  let rendered: RenderResult;
+  let someObservable: IObservableValue<boolean>;
+  let testExtensionInstance: TestExtensionRenderer;
+
+  beforeEach(async () => {
+    builder = getApplicationBuilder();
+
+    builder.setEnvironmentToClusterFrame();
+
+    someObservable = observable.box(false);
+
+    const testExtensionOptions = {
+      id: "test-extension-id",
+      name: "test-extension",
+
+      rendererOptions: {
+        clusterPages: [
+          {
+            components: {
+              Page: () => <div data-testid="some-test-page">Some page</div>,
+            },
+
+            enabled: computed(() => someObservable.get()),
+          },
+        ],
+      },
+    };
+
+    rendered = await builder.render();
+
+    builder.extensions.enable(testExtensionOptions);
+
+    testExtensionInstance = builder.extensions.get("test-extension-id").applicationWindows.only;
+  });
+
+  it("when navigating to the page, does not show the page", () => {
+    act(() => {
+      testExtensionInstance.navigate();
+    });
+
+    const actual = rendered.queryByTestId("some-test-page");
+
+    expect(actual).not.toBeInTheDocument();
+  });
+
+  it("given page becomes enabled, when navigating to the page, shows the page", () => {
+    act(() => {
+      runInAction(() => {
+        someObservable.set(true);
+      });
+    });
+
+    act(() => {
+      testExtensionInstance.navigate();
+    });
+
+    const actual = rendered.queryByTestId("some-test-page");
+
+    expect(actual).toBeInTheDocument();
+  });
+});

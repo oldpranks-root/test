@@ -1,0 +1,4156 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Deleting a cluster > when an internal kubeconfig cluster is used > when the dialog is opened > renders 1`] = `
+<body>
+  <div>
+    <div
+      class="Notifications"
+    />
+    <div
+      class="ClusterManager"
+    >
+      <div
+        class="topBar"
+      >
+        <div
+          class="items"
+        >
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive focusable"
+              data-testid="home-button"
+              tabindex="0"
+            >
+              <span
+                class="icon"
+                data-icon-name="home"
+              >
+                home
+              </span>
+            </i>
+          </div>
+          <div
+            class="size-sm"
+          />
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive disabled focusable"
+              data-testid="history-back"
+            >
+              <span
+                class="icon"
+                data-icon-name="arrow_back"
+              >
+                arrow_back
+              </span>
+            </i>
+          </div>
+          <div
+            class="size-sm"
+          />
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive disabled focusable"
+              data-testid="history-forward"
+            >
+              <span
+                class="icon"
+                data-icon-name="arrow_forward"
+              >
+                arrow_forward
+              </span>
+            </i>
+          </div>
+          <div
+            class="separator"
+          />
+        </div>
+      </div>
+      <main>
+        <div
+          id="lens-views"
+        />
+        <div
+          class="mainLayout"
+          style="--sidebar-width: 200px;"
+        >
+          <div
+            class="sidebar"
+          >
+            <div
+              class="flex flex-col w-full"
+            >
+              <div
+                class="catalog"
+              >
+                Catalog
+              </div>
+              <ul
+                class="treeView"
+                role="tree"
+              >
+                <li
+                  class="root selected treeItem"
+                  data-testid="*-tab"
+                  role="treeitem"
+                >
+                  <div
+                    class="iconContainer"
+                  />
+                  <div
+                    class="label"
+                  >
+                    Browse
+                  </div>
+                </li>
+                <div
+                  class="HorizontalLine size-xxs"
+                />
+                <li
+                  class="root treeGroup"
+                  role="group"
+                >
+                  <div
+                    class="group"
+                  >
+                    <div
+                      class="iconContainer"
+                    >
+                      <i
+                        class="Icon material focusable"
+                      >
+                        <span
+                          class="icon"
+                          data-icon-name="expand_more"
+                        >
+                          expand_more
+                        </span>
+                      </i>
+                    </div>
+                    <div
+                      class="label"
+                    >
+                      <div
+                        class="parent"
+                      >
+                        Categories
+                      </div>
+                    </div>
+                  </div>
+                  <ul
+                    class="contents expanded"
+                  >
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/General-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="settings"
+                          >
+                            settings
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            General
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/KubernetesCluster-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon svg focusable small"
+                        >
+                          <span
+                            class="icon"
+                          >
+                            <!--?xml version="1.0" encoding="utf-8" ?-->
+                            
+
+                            <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            
+
+                            <svg
+                              id="Layer_1"
+                              style="enable-background:new 0 0 256 249;"
+                              version="1.1"
+                              viewBox="0 0 256 249"
+                              x="0px"
+                              xml:space="preserve"
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              y="0px"
+                            >
+                              
+  
+                              <style
+                                type="text/css"
+                              >
+                                
+  .st0 {
+    fill: #ffffff;
+  }
+  
+                              </style>
+                              
+  
+                              <path
+                                class="st0"
+                                d="M247.7,151.3L247.7,151.3L247.7,151.3C247.4,151.3,247.4,151.3,247.7,151.3h-0.2c-0.2,0-0.5,0-0.5-0.2
+	c-0.5,0-1-0.2-1.4-0.2c-1.7-0.2-3.1-0.5-4.5-0.5c-0.7,0-1.4,0-2.4-0.2h-0.2c-5-0.5-9-1-12.8-2.1c-1.7-0.7-2.1-1.7-2.6-2.6
+	c0-0.2-0.2-0.2-0.2-0.5l0,0l-3.1-1c1.4-10.9,1-22.3-1.7-33.5c-2.6-11.2-7.1-21.6-13.3-31.1l2.4-2.1v-0.5c0-1.2,0.2-2.4,1.2-3.6
+	c2.9-2.6,6.4-4.8,10.7-7.4l0,0c0.7-0.5,1.4-0.7,2.1-1.2c1.4-0.7,2.6-1.4,4-2.4c0.2-0.2,0.7-0.5,1.2-1c0.2-0.2,0.5-0.2,0.5-0.5l0,0
+	c3.3-2.9,4-7.6,1.7-10.7c-1.2-1.7-3.3-2.6-5.5-2.6c-1.9,0-3.6,0.7-5.2,1.9l0,0l0,0c-0.2,0.2-0.2,0.2-0.5,0.5c-0.5,0.2-0.7,0.7-1.2,1
+	c-1.2,1.2-2.1,2.1-3.1,3.3c-0.5,0.5-1,1.2-1.7,1.7l0,0c-3.3,3.6-6.4,6.4-9.5,8.6c-0.7,0.5-1.4,0.7-2.1,0.7c-0.5,0-1,0-1.4-0.2h-0.5
+	l0,0l-2.9,1.9c-3.1-3.3-6.4-6.2-9.7-9c-14.3-11.2-31.6-18.1-49.6-19.7l-0.2-3.1c-0.2-0.2-0.2-0.2-0.5-0.5c-0.7-0.7-1.7-1.4-1.9-3.1
+	c-0.2-3.8,0.2-8.1,0.7-12.8v-0.2c0-0.7,0.2-1.7,0.5-2.4c0.2-1.4,0.5-2.9,0.7-4.5V10V9.3l0,0l0,0c0-4.3-3.3-7.8-7.4-7.8
+	c-1.9,0-3.8,1-5.2,2.4c-1.4,1.4-2.1,3.3-2.1,5.5l0,0l0,0v0.5v1.4c0,1.7,0.2,3.1,0.7,4.5c0.2,0.7,0.2,1.4,0.5,2.4v0.2
+	c0.5,4.8,1.2,9,0.7,12.8c-0.2,1.7-1.2,2.4-1.9,3.1c-0.2,0.2-0.2,0.2-0.5,0.5l0,0l-0.2,3.1c-4.3,0.5-8.6,1-12.8,1.9
+	c-18.3,4-34.4,13.3-47,26.6l-2.4-1.7h-0.5c-0.5,0-1,0.2-1.4,0.2c-0.7,0-1.4-0.2-2.1-0.7c-3.1-2.1-6.2-5.2-9.5-8.8l0,0
+	c-0.5-0.5-1-1.2-1.7-1.7c-1-1.2-1.9-2.1-3.1-3.3c-0.2-0.2-0.7-0.5-1.2-1c-0.2-0.2-0.5-0.2-0.5-0.5l0,0c-1.4-1.2-3.3-1.9-5.2-1.9
+	c-2.1,0-4.3,1-5.5,2.6c-2.4,3.1-1.7,7.8,1.7,10.7l0,0l0,0c0.2,0,0.2,0.2,0.5,0.2c0.5,0.2,0.7,0.7,1.2,1c1.4,1,2.6,1.7,4,2.4
+	c0.7,0.2,1.4,0.7,2.1,1.2l0,0c4.3,2.6,7.8,4.8,10.7,7.4c1.2,1.2,1.2,2.4,1.2,3.6v0.5l0,0l2.4,2.1c-0.5,0.7-1,1.2-1.2,1.9
+	c-11.9,18.8-16.4,40.9-13.3,62.7l-3.1,1c0,0.2-0.2,0.2-0.2,0.5c-0.5,1-1.2,1.9-2.6,2.6c-3.6,1.2-7.8,1.7-12.8,2.1h-0.2
+	c-0.7,0-1.7,0-2.4,0.2c-1.4,0-2.9,0.2-4.5,0.5c-0.5,0-1,0.2-1.4,0.2c-0.2,0-0.5,0-0.7,0.2l0,0l0,0c-4.3,1-6.9,5-6.2,8.8
+	c0.7,3.3,3.8,5.5,7.6,5.5c0.7,0,1.2,0,1.9-0.2l0,0l0,0c0.2,0,0.5,0,0.5-0.2c0.5,0,1-0.2,1.4-0.2c1.7-0.5,2.9-1,4.3-1.7
+	c0.7-0.2,1.4-0.7,2.1-1h0.2c4.5-1.7,8.6-3.1,12.4-3.6h0.5c1.4,0,2.4,0.7,3.1,1.2c0.2,0,0.2,0.2,0.5,0.2l0,0l3.3-0.5
+	c5.7,17.6,16.6,33.3,31.1,44.7c3.3,2.6,6.7,4.8,10.2,6.9l-1.4,3.1c0,0.2,0.2,0.2,0.2,0.5c0.5,1,1,2.1,0.5,3.8
+	c-1.4,3.6-3.6,7.1-6.2,11.2v0.2c-0.5,0.7-1,1.2-1.4,1.9c-1,1.2-1.7,2.4-2.6,3.8c-0.2,0.2-0.5,0.7-0.7,1.2c0,0.2-0.2,0.5-0.2,0.5l0,0
+	l0,0c-1.9,4-0.5,8.6,3.1,10.2c1,0.5,1.9,0.7,2.9,0.7c2.9,0,5.7-1.9,7.1-4.5l0,0l0,0c0-0.2,0.2-0.5,0.2-0.5c0.2-0.5,0.5-1,0.7-1.2
+	c0.7-1.7,1-2.9,1.4-4.3c0.2-0.7,0.5-1.4,0.7-2.1l0,0c1.7-4.8,2.9-8.6,5-11.9c1-1.4,2.1-1.7,3.1-2.1c0.2,0,0.2,0,0.5-0.2l0,0l1.7-3.1
+	c10.5,4,21.9,6.2,33.3,6.2c6.9,0,14-0.7,20.7-2.4c4.3-1,8.3-2.1,12.4-3.6l1.4,2.6c0.2,0,0.2,0,0.5,0.2c1.2,0.2,2.1,0.7,3.1,2.1
+	c1.9,3.3,3.3,7.4,5,11.9v0.2c0.2,0.7,0.5,1.4,0.7,2.1c0.5,1.4,0.7,2.9,1.4,4.3c0.2,0.5,0.5,0.7,0.7,1.2c0,0.2,0.2,0.5,0.2,0.5l0,0
+	l0,0c1.4,2.9,4.3,4.5,7.1,4.5c1,0,1.9-0.2,2.9-0.7c1.7-1,3.1-2.4,3.6-4.3s0.5-4-0.5-5.9l0,0l0,0c0-0.2-0.2-0.2-0.2-0.5
+	c-0.2-0.5-0.5-1-0.7-1.2c-0.7-1.4-1.7-2.6-2.6-3.8c-0.5-0.7-1-1.2-1.4-1.9V229c-2.6-4-5-7.6-6.2-11.2c-0.5-1.7,0-2.6,0.2-3.8
+	c0-0.2,0.2-0.2,0.2-0.5l0,0l-1.2-2.9c12.6-7.4,23.3-17.8,31.4-30.6c4.3-6.7,7.6-14,10-21.4l2.9,0.5c0.2,0,0.2-0.2,0.5-0.2
+	c1-0.5,1.7-1.2,3.1-1.2h0.5c3.8,0.5,7.8,1.9,12.4,3.6h0.2c0.7,0.2,1.4,0.7,2.1,1c1.4,0.7,2.6,1.2,4.3,1.7c0.5,0,1,0.2,1.4,0.2
+	c0.2,0,0.5,0,0.7,0.2l0,0c0.7,0.2,1.2,0.2,1.9,0.2c3.6,0,6.7-2.4,7.6-5.5C254.6,156.3,251.9,152.5,247.7,151.3L247.7,151.3z
+	 M137.7,139.7l-10.5,5l-10.5-5l-2.6-11.2l7.1-9h11.6l7.1,9L137.7,139.7L137.7,139.7z M199.7,115c1.9,8.1,2.4,16.2,1.7,24L165,128.5
+	c-3.3-1-5.2-4.3-4.5-7.6c0.2-1,0.7-1.9,1.4-2.6l28.7-25.9C194.7,99.1,197.8,106.7,199.7,115L199.7,115z M179.3,78.2l-31.1,22.1
+	c-2.6,1.7-6.2,1.2-8.3-1.4c-0.7-0.7-1-1.7-1.2-2.6l-2.1-38.7C152.9,59.4,167.8,66.8,179.3,78.2L179.3,78.2z M110.4,58.7
+	c2.6-0.5,5-1,7.6-1.4l-2.1,38c-0.2,3.3-2.9,6.2-6.4,6.2c-1,0-2.1-0.2-2.9-0.7L75,78.2C84.7,68.4,96.8,61.8,110.4,58.7L110.4,58.7z
+	 M63.6,92.4l28.3,25.2c2.6,2.1,2.9,6.2,0.7,8.8c-0.7,1-1.7,1.7-2.9,1.9L52.9,139C51.4,122.8,55,106.4,63.6,92.4L63.6,92.4z
+	 M57.1,156.8l37.8-6.4c3.1-0.2,5.9,1.9,6.7,5c0.2,1.4,0.2,2.6-0.2,3.8l0,0l-14.5,34.9C73.5,185.6,62.8,172.5,57.1,156.8L57.1,156.8z
+	 M143.9,204.1c-5.5,1.2-10.9,1.9-16.6,1.9c-8.3,0-16.4-1.4-24-3.8l18.8-34c1.9-2.1,5-3.1,7.6-1.7c1.2,0.7,2.1,1.7,2.9,2.6l0,0
+	l18.3,33C148.6,202.9,146.2,203.4,143.9,204.1L143.9,204.1z M190.2,171.1c-5.9,9.5-13.8,17.1-22.8,23l-15-35.9
+	c-0.7-2.9,0.5-5.9,3.3-7.4c1-0.5,2.1-0.7,3.3-0.7l38,6.4C195.6,161.8,193.3,166.5,190.2,171.1L190.2,171.1z"
+                              />
+                              
+
+                            </svg>
+                            
+
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            Clusters
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/WebLink-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="public"
+                          >
+                            public
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            Web Links
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="ResizingAnchor horizontal trailing"
+            />
+          </div>
+          <div
+            class="contents"
+          >
+            <div
+              class="views"
+            >
+              <div
+                class="ItemListLayout flex flex-col Catalog"
+                data-testid="catalog-list-for-browse-all"
+              >
+                <div
+                  class="header flex gap-4 items-center"
+                >
+                  <h5
+                    class="title"
+                  >
+                    Browse All
+                  </h5>
+                  <div
+                    class="info-panel grow shrink-0 basis-0"
+                  >
+                    0 items
+                  </div>
+                  <div
+                    style="display: flex; align-items: center; gap: 8px;"
+                  >
+                    <div
+                      class="Input SearchInput"
+                    >
+                      <label
+                        class="input-area flex items-center gap-2"
+                        id=""
+                      >
+                        <input
+                          class="input grow"
+                          placeholder="Search..."
+                          spellcheck="false"
+                          value=""
+                        />
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="search"
+                          >
+                            search
+                          </span>
+                        </i>
+                      </label>
+                      <div
+                        class="input-info flex gap-2"
+                      />
+                    </div>
+                    <i
+                      class="Icon material interactive focusable small"
+                      tabindex="0"
+                    >
+                      <span
+                        class="icon"
+                        data-icon-name="link_off"
+                      >
+                        link_off
+                      </span>
+                    </i>
+                    <div>
+                      Link search (shared)
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="items grow shrink-0 basis-0 flex flex-col"
+                >
+                  <div
+                    class="Table flex flex-col Catalog grow shrink-0 basis-0 dark selectable scrollable sortable autoSize virtual"
+                  >
+                    <div
+                      class="TableHead sticky nowrap topLine"
+                    >
+                      <div
+                        class="TableCell entityName nowrap sorting"
+                        id="name"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Name
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell nowrap sorting"
+                        data-testid="catalog-kind-column"
+                        id="kind"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Kind
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell sourceCell nowrap sorting"
+                        data-testid="catalog-source-column"
+                        id="source"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Source
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell labelsCell scrollable nowrap"
+                        data-testid="catalog-labels-column"
+                        id="labels"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Labels
+                        </div>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell statusCell nowrap sorting"
+                        data-testid="catalog-status-column"
+                        id="status"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Status
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell menu nowrap"
+                      >
+                        <div
+                          class="content"
+                        >
+                          <i
+                            class="Icon material interactive focusable"
+                            id="menu-actions-for-item-object-list-content"
+                            tabindex="0"
+                          >
+                            <span
+                              class="icon"
+                              data-icon-name="more_vert"
+                            >
+                              more_vert
+                            </span>
+                          </i>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="NoItems flex grow shrink-0 basis-0"
+                    >
+                      <div
+                        class="m-auto"
+                      >
+                        Item list is empty
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="AddRemoveButtons flex gap-2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="footer"
+          />
+        </div>
+      </main>
+      <div
+        class="HotbarMenu flex flex-col"
+      >
+        <div
+          class="HotbarItems flex flex-col"
+        >
+          <div
+            class="HotbarCell animateDown"
+            index="0"
+          >
+            <div
+              aria-describedby="DndDescribedBy-8"
+              aria-disabled="false"
+              aria-roledescription="draggable"
+              role="button"
+              style="z-index: 12; position: absolute; opacity: 1; pointer-events: auto;"
+              tabindex="0"
+            >
+              <div
+                class="HotbarIcon contextMenuAvailable"
+              >
+                <div
+                  class="Avatar rounded disabled avatar"
+                  id="hotbarIcon-hotbar-icon-welcome-page-entity"
+                  style="width: 40px; height: 40px; background: rgb(110, 77, 28);"
+                >
+                  WP
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="HotbarCell animateDown"
+            index="1"
+          >
+            <div
+              aria-describedby="DndDescribedBy-8"
+              aria-disabled="false"
+              aria-roledescription="draggable"
+              role="button"
+              style="z-index: 11; position: absolute; opacity: 1; pointer-events: auto;"
+              tabindex="0"
+            >
+              <div
+                class="HotbarIcon contextMenuAvailable"
+              >
+                <div
+                  class="Avatar rounded disabled avatar"
+                  id="hotbarIcon-hotbar-icon-catalog-entity"
+                  style="width: 40px; height: 40px; background: rgb(36, 110, 28);"
+                >
+                  Ca
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="HotbarCell animateDown"
+            index="2"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="3"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="4"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="5"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="6"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="7"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="8"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="9"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="10"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="11"
+          />
+          <div
+            id="DndDescribedBy-8"
+            style="display: none;"
+          >
+            
+    To pick up a draggable item, press the space bar.
+    While dragging, use the arrow keys to move the item.
+    Press space again to drop the item in its new position, or press escape to cancel.
+  
+          </div>
+          <div
+            aria-atomic="true"
+            aria-live="assertive"
+            id="DndLiveRegion-8"
+            role="status"
+            style="position: fixed; top: 0px; left: 0px; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip: rect(0px); clip-path: inset(100%); white-space: nowrap;"
+          />
+        </div>
+        <div
+          class="HotbarSelector"
+        >
+          <i
+            class="Icon material interactive focusable"
+            tabindex="0"
+          >
+            <span
+              class="icon"
+              data-icon-name="arrow_left"
+            >
+              arrow_left
+            </span>
+          </i>
+          <div
+            class="HotbarIndex"
+          >
+            <div
+              class="badge Badge small clickable"
+              data-testid="hotbar-menu-badge-for-Default"
+              id="hotbarIndex"
+            >
+              1
+            </div>
+          </div>
+          <i
+            class="Icon material interactive focusable"
+            tabindex="0"
+          >
+            <span
+              class="icon"
+              data-icon-name="arrow_right"
+            >
+              arrow_right
+            </span>
+          </i>
+        </div>
+      </div>
+      <div
+        class="StatusBar"
+        data-testid="status-bar"
+      >
+        <div
+          class="leftSide"
+          data-testid="status-bar-left"
+        />
+        <div
+          class="rightSide"
+          data-testid="status-bar-right"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="Animate opacity-scale Dialog flex items-center justify-center dialog modal enter"
+    data-testid="delete-cluster-dialog"
+    style="--enter-duration: 100ms; --leave-duration: 100ms;"
+  >
+    <div
+      class="dialog-content"
+    >
+      <div
+        class="dialogContent"
+      >
+        <div>
+          Delete the 
+          <b>
+            some-context
+          </b>
+           context from Freelens's internal kubeconfig?
+        </div>
+        <div
+          class="warning"
+        >
+          <i
+            class="Icon warningIcon material focusable"
+          >
+            <span
+              class="icon"
+              data-icon-name="warning_amber"
+            >
+              warning_amber
+            </span>
+          </i>
+          <p
+            data-testid="internal-kubeconfig-warning"
+          >
+            Are you sure you want to delete it? It can be re-added through the copy/paste mechanism.
+          </p>
+        </div>
+      </div>
+      <div
+        class="dialogButtons"
+      >
+        <button
+          class="Button plain"
+          type="button"
+        >
+          Cancel
+        </button>
+        <button
+          class="Button accent"
+          type="button"
+        >
+          Delete Context
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when the dialog is opened for not the current cluster > renders 1`] = `
+<body>
+  <div>
+    <div
+      class="Notifications"
+    />
+    <div
+      class="ClusterManager"
+    >
+      <div
+        class="topBar"
+      >
+        <div
+          class="items"
+        >
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive focusable"
+              data-testid="home-button"
+              tabindex="0"
+            >
+              <span
+                class="icon"
+                data-icon-name="home"
+              >
+                home
+              </span>
+            </i>
+          </div>
+          <div
+            class="size-sm"
+          />
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive disabled focusable"
+              data-testid="history-back"
+            >
+              <span
+                class="icon"
+                data-icon-name="arrow_back"
+              >
+                arrow_back
+              </span>
+            </i>
+          </div>
+          <div
+            class="size-sm"
+          />
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive disabled focusable"
+              data-testid="history-forward"
+            >
+              <span
+                class="icon"
+                data-icon-name="arrow_forward"
+              >
+                arrow_forward
+              </span>
+            </i>
+          </div>
+          <div
+            class="separator"
+          />
+        </div>
+      </div>
+      <main>
+        <div
+          id="lens-views"
+        />
+        <div
+          class="mainLayout"
+          style="--sidebar-width: 200px;"
+        >
+          <div
+            class="sidebar"
+          >
+            <div
+              class="flex flex-col w-full"
+            >
+              <div
+                class="catalog"
+              >
+                Catalog
+              </div>
+              <ul
+                class="treeView"
+                role="tree"
+              >
+                <li
+                  class="root selected treeItem"
+                  data-testid="*-tab"
+                  role="treeitem"
+                >
+                  <div
+                    class="iconContainer"
+                  />
+                  <div
+                    class="label"
+                  >
+                    Browse
+                  </div>
+                </li>
+                <div
+                  class="HorizontalLine size-xxs"
+                />
+                <li
+                  class="root treeGroup"
+                  role="group"
+                >
+                  <div
+                    class="group"
+                  >
+                    <div
+                      class="iconContainer"
+                    >
+                      <i
+                        class="Icon material focusable"
+                      >
+                        <span
+                          class="icon"
+                          data-icon-name="expand_more"
+                        >
+                          expand_more
+                        </span>
+                      </i>
+                    </div>
+                    <div
+                      class="label"
+                    >
+                      <div
+                        class="parent"
+                      >
+                        Categories
+                      </div>
+                    </div>
+                  </div>
+                  <ul
+                    class="contents expanded"
+                  >
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/General-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="settings"
+                          >
+                            settings
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            General
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/KubernetesCluster-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon svg focusable small"
+                        >
+                          <span
+                            class="icon"
+                          >
+                            <!--?xml version="1.0" encoding="utf-8" ?-->
+                            
+
+                            <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            
+
+                            <svg
+                              id="Layer_1"
+                              style="enable-background:new 0 0 256 249;"
+                              version="1.1"
+                              viewBox="0 0 256 249"
+                              x="0px"
+                              xml:space="preserve"
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              y="0px"
+                            >
+                              
+  
+                              <style
+                                type="text/css"
+                              >
+                                
+  .st0 {
+    fill: #ffffff;
+  }
+  
+                              </style>
+                              
+  
+                              <path
+                                class="st0"
+                                d="M247.7,151.3L247.7,151.3L247.7,151.3C247.4,151.3,247.4,151.3,247.7,151.3h-0.2c-0.2,0-0.5,0-0.5-0.2
+	c-0.5,0-1-0.2-1.4-0.2c-1.7-0.2-3.1-0.5-4.5-0.5c-0.7,0-1.4,0-2.4-0.2h-0.2c-5-0.5-9-1-12.8-2.1c-1.7-0.7-2.1-1.7-2.6-2.6
+	c0-0.2-0.2-0.2-0.2-0.5l0,0l-3.1-1c1.4-10.9,1-22.3-1.7-33.5c-2.6-11.2-7.1-21.6-13.3-31.1l2.4-2.1v-0.5c0-1.2,0.2-2.4,1.2-3.6
+	c2.9-2.6,6.4-4.8,10.7-7.4l0,0c0.7-0.5,1.4-0.7,2.1-1.2c1.4-0.7,2.6-1.4,4-2.4c0.2-0.2,0.7-0.5,1.2-1c0.2-0.2,0.5-0.2,0.5-0.5l0,0
+	c3.3-2.9,4-7.6,1.7-10.7c-1.2-1.7-3.3-2.6-5.5-2.6c-1.9,0-3.6,0.7-5.2,1.9l0,0l0,0c-0.2,0.2-0.2,0.2-0.5,0.5c-0.5,0.2-0.7,0.7-1.2,1
+	c-1.2,1.2-2.1,2.1-3.1,3.3c-0.5,0.5-1,1.2-1.7,1.7l0,0c-3.3,3.6-6.4,6.4-9.5,8.6c-0.7,0.5-1.4,0.7-2.1,0.7c-0.5,0-1,0-1.4-0.2h-0.5
+	l0,0l-2.9,1.9c-3.1-3.3-6.4-6.2-9.7-9c-14.3-11.2-31.6-18.1-49.6-19.7l-0.2-3.1c-0.2-0.2-0.2-0.2-0.5-0.5c-0.7-0.7-1.7-1.4-1.9-3.1
+	c-0.2-3.8,0.2-8.1,0.7-12.8v-0.2c0-0.7,0.2-1.7,0.5-2.4c0.2-1.4,0.5-2.9,0.7-4.5V10V9.3l0,0l0,0c0-4.3-3.3-7.8-7.4-7.8
+	c-1.9,0-3.8,1-5.2,2.4c-1.4,1.4-2.1,3.3-2.1,5.5l0,0l0,0v0.5v1.4c0,1.7,0.2,3.1,0.7,4.5c0.2,0.7,0.2,1.4,0.5,2.4v0.2
+	c0.5,4.8,1.2,9,0.7,12.8c-0.2,1.7-1.2,2.4-1.9,3.1c-0.2,0.2-0.2,0.2-0.5,0.5l0,0l-0.2,3.1c-4.3,0.5-8.6,1-12.8,1.9
+	c-18.3,4-34.4,13.3-47,26.6l-2.4-1.7h-0.5c-0.5,0-1,0.2-1.4,0.2c-0.7,0-1.4-0.2-2.1-0.7c-3.1-2.1-6.2-5.2-9.5-8.8l0,0
+	c-0.5-0.5-1-1.2-1.7-1.7c-1-1.2-1.9-2.1-3.1-3.3c-0.2-0.2-0.7-0.5-1.2-1c-0.2-0.2-0.5-0.2-0.5-0.5l0,0c-1.4-1.2-3.3-1.9-5.2-1.9
+	c-2.1,0-4.3,1-5.5,2.6c-2.4,3.1-1.7,7.8,1.7,10.7l0,0l0,0c0.2,0,0.2,0.2,0.5,0.2c0.5,0.2,0.7,0.7,1.2,1c1.4,1,2.6,1.7,4,2.4
+	c0.7,0.2,1.4,0.7,2.1,1.2l0,0c4.3,2.6,7.8,4.8,10.7,7.4c1.2,1.2,1.2,2.4,1.2,3.6v0.5l0,0l2.4,2.1c-0.5,0.7-1,1.2-1.2,1.9
+	c-11.9,18.8-16.4,40.9-13.3,62.7l-3.1,1c0,0.2-0.2,0.2-0.2,0.5c-0.5,1-1.2,1.9-2.6,2.6c-3.6,1.2-7.8,1.7-12.8,2.1h-0.2
+	c-0.7,0-1.7,0-2.4,0.2c-1.4,0-2.9,0.2-4.5,0.5c-0.5,0-1,0.2-1.4,0.2c-0.2,0-0.5,0-0.7,0.2l0,0l0,0c-4.3,1-6.9,5-6.2,8.8
+	c0.7,3.3,3.8,5.5,7.6,5.5c0.7,0,1.2,0,1.9-0.2l0,0l0,0c0.2,0,0.5,0,0.5-0.2c0.5,0,1-0.2,1.4-0.2c1.7-0.5,2.9-1,4.3-1.7
+	c0.7-0.2,1.4-0.7,2.1-1h0.2c4.5-1.7,8.6-3.1,12.4-3.6h0.5c1.4,0,2.4,0.7,3.1,1.2c0.2,0,0.2,0.2,0.5,0.2l0,0l3.3-0.5
+	c5.7,17.6,16.6,33.3,31.1,44.7c3.3,2.6,6.7,4.8,10.2,6.9l-1.4,3.1c0,0.2,0.2,0.2,0.2,0.5c0.5,1,1,2.1,0.5,3.8
+	c-1.4,3.6-3.6,7.1-6.2,11.2v0.2c-0.5,0.7-1,1.2-1.4,1.9c-1,1.2-1.7,2.4-2.6,3.8c-0.2,0.2-0.5,0.7-0.7,1.2c0,0.2-0.2,0.5-0.2,0.5l0,0
+	l0,0c-1.9,4-0.5,8.6,3.1,10.2c1,0.5,1.9,0.7,2.9,0.7c2.9,0,5.7-1.9,7.1-4.5l0,0l0,0c0-0.2,0.2-0.5,0.2-0.5c0.2-0.5,0.5-1,0.7-1.2
+	c0.7-1.7,1-2.9,1.4-4.3c0.2-0.7,0.5-1.4,0.7-2.1l0,0c1.7-4.8,2.9-8.6,5-11.9c1-1.4,2.1-1.7,3.1-2.1c0.2,0,0.2,0,0.5-0.2l0,0l1.7-3.1
+	c10.5,4,21.9,6.2,33.3,6.2c6.9,0,14-0.7,20.7-2.4c4.3-1,8.3-2.1,12.4-3.6l1.4,2.6c0.2,0,0.2,0,0.5,0.2c1.2,0.2,2.1,0.7,3.1,2.1
+	c1.9,3.3,3.3,7.4,5,11.9v0.2c0.2,0.7,0.5,1.4,0.7,2.1c0.5,1.4,0.7,2.9,1.4,4.3c0.2,0.5,0.5,0.7,0.7,1.2c0,0.2,0.2,0.5,0.2,0.5l0,0
+	l0,0c1.4,2.9,4.3,4.5,7.1,4.5c1,0,1.9-0.2,2.9-0.7c1.7-1,3.1-2.4,3.6-4.3s0.5-4-0.5-5.9l0,0l0,0c0-0.2-0.2-0.2-0.2-0.5
+	c-0.2-0.5-0.5-1-0.7-1.2c-0.7-1.4-1.7-2.6-2.6-3.8c-0.5-0.7-1-1.2-1.4-1.9V229c-2.6-4-5-7.6-6.2-11.2c-0.5-1.7,0-2.6,0.2-3.8
+	c0-0.2,0.2-0.2,0.2-0.5l0,0l-1.2-2.9c12.6-7.4,23.3-17.8,31.4-30.6c4.3-6.7,7.6-14,10-21.4l2.9,0.5c0.2,0,0.2-0.2,0.5-0.2
+	c1-0.5,1.7-1.2,3.1-1.2h0.5c3.8,0.5,7.8,1.9,12.4,3.6h0.2c0.7,0.2,1.4,0.7,2.1,1c1.4,0.7,2.6,1.2,4.3,1.7c0.5,0,1,0.2,1.4,0.2
+	c0.2,0,0.5,0,0.7,0.2l0,0c0.7,0.2,1.2,0.2,1.9,0.2c3.6,0,6.7-2.4,7.6-5.5C254.6,156.3,251.9,152.5,247.7,151.3L247.7,151.3z
+	 M137.7,139.7l-10.5,5l-10.5-5l-2.6-11.2l7.1-9h11.6l7.1,9L137.7,139.7L137.7,139.7z M199.7,115c1.9,8.1,2.4,16.2,1.7,24L165,128.5
+	c-3.3-1-5.2-4.3-4.5-7.6c0.2-1,0.7-1.9,1.4-2.6l28.7-25.9C194.7,99.1,197.8,106.7,199.7,115L199.7,115z M179.3,78.2l-31.1,22.1
+	c-2.6,1.7-6.2,1.2-8.3-1.4c-0.7-0.7-1-1.7-1.2-2.6l-2.1-38.7C152.9,59.4,167.8,66.8,179.3,78.2L179.3,78.2z M110.4,58.7
+	c2.6-0.5,5-1,7.6-1.4l-2.1,38c-0.2,3.3-2.9,6.2-6.4,6.2c-1,0-2.1-0.2-2.9-0.7L75,78.2C84.7,68.4,96.8,61.8,110.4,58.7L110.4,58.7z
+	 M63.6,92.4l28.3,25.2c2.6,2.1,2.9,6.2,0.7,8.8c-0.7,1-1.7,1.7-2.9,1.9L52.9,139C51.4,122.8,55,106.4,63.6,92.4L63.6,92.4z
+	 M57.1,156.8l37.8-6.4c3.1-0.2,5.9,1.9,6.7,5c0.2,1.4,0.2,2.6-0.2,3.8l0,0l-14.5,34.9C73.5,185.6,62.8,172.5,57.1,156.8L57.1,156.8z
+	 M143.9,204.1c-5.5,1.2-10.9,1.9-16.6,1.9c-8.3,0-16.4-1.4-24-3.8l18.8-34c1.9-2.1,5-3.1,7.6-1.7c1.2,0.7,2.1,1.7,2.9,2.6l0,0
+	l18.3,33C148.6,202.9,146.2,203.4,143.9,204.1L143.9,204.1z M190.2,171.1c-5.9,9.5-13.8,17.1-22.8,23l-15-35.9
+	c-0.7-2.9,0.5-5.9,3.3-7.4c1-0.5,2.1-0.7,3.3-0.7l38,6.4C195.6,161.8,193.3,166.5,190.2,171.1L190.2,171.1z"
+                              />
+                              
+
+                            </svg>
+                            
+
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            Clusters
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/WebLink-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="public"
+                          >
+                            public
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            Web Links
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="ResizingAnchor horizontal trailing"
+            />
+          </div>
+          <div
+            class="contents"
+          >
+            <div
+              class="views"
+            >
+              <div
+                class="ItemListLayout flex flex-col Catalog"
+                data-testid="catalog-list-for-browse-all"
+              >
+                <div
+                  class="header flex gap-4 items-center"
+                >
+                  <h5
+                    class="title"
+                  >
+                    Browse All
+                  </h5>
+                  <div
+                    class="info-panel grow shrink-0 basis-0"
+                  >
+                    0 items
+                  </div>
+                  <div
+                    style="display: flex; align-items: center; gap: 8px;"
+                  >
+                    <div
+                      class="Input SearchInput"
+                    >
+                      <label
+                        class="input-area flex items-center gap-2"
+                        id=""
+                      >
+                        <input
+                          class="input grow"
+                          placeholder="Search..."
+                          spellcheck="false"
+                          value=""
+                        />
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="search"
+                          >
+                            search
+                          </span>
+                        </i>
+                      </label>
+                      <div
+                        class="input-info flex gap-2"
+                      />
+                    </div>
+                    <i
+                      class="Icon material interactive focusable small"
+                      tabindex="0"
+                    >
+                      <span
+                        class="icon"
+                        data-icon-name="link_off"
+                      >
+                        link_off
+                      </span>
+                    </i>
+                    <div>
+                      Link search (shared)
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="items grow shrink-0 basis-0 flex flex-col"
+                >
+                  <div
+                    class="Table flex flex-col Catalog grow shrink-0 basis-0 dark selectable scrollable sortable autoSize virtual"
+                  >
+                    <div
+                      class="TableHead sticky nowrap topLine"
+                    >
+                      <div
+                        class="TableCell entityName nowrap sorting"
+                        id="name"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Name
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell nowrap sorting"
+                        data-testid="catalog-kind-column"
+                        id="kind"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Kind
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell sourceCell nowrap sorting"
+                        data-testid="catalog-source-column"
+                        id="source"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Source
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell labelsCell scrollable nowrap"
+                        data-testid="catalog-labels-column"
+                        id="labels"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Labels
+                        </div>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell statusCell nowrap sorting"
+                        data-testid="catalog-status-column"
+                        id="status"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Status
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell menu nowrap"
+                      >
+                        <div
+                          class="content"
+                        >
+                          <i
+                            class="Icon material interactive focusable"
+                            id="menu-actions-for-item-object-list-content"
+                            tabindex="0"
+                          >
+                            <span
+                              class="icon"
+                              data-icon-name="more_vert"
+                            >
+                              more_vert
+                            </span>
+                          </i>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="NoItems flex grow shrink-0 basis-0"
+                    >
+                      <div
+                        class="m-auto"
+                      >
+                        Item list is empty
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="AddRemoveButtons flex gap-2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="footer"
+          />
+        </div>
+      </main>
+      <div
+        class="HotbarMenu flex flex-col"
+      >
+        <div
+          class="HotbarItems flex flex-col"
+        >
+          <div
+            class="HotbarCell animateDown"
+            index="0"
+          >
+            <div
+              aria-describedby="DndDescribedBy-3"
+              aria-disabled="false"
+              aria-roledescription="draggable"
+              role="button"
+              style="z-index: 12; position: absolute; opacity: 1; pointer-events: auto;"
+              tabindex="0"
+            >
+              <div
+                class="HotbarIcon contextMenuAvailable"
+              >
+                <div
+                  class="Avatar rounded disabled avatar"
+                  id="hotbarIcon-hotbar-icon-welcome-page-entity"
+                  style="width: 40px; height: 40px; background: rgb(110, 77, 28);"
+                >
+                  WP
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="HotbarCell animateDown"
+            index="1"
+          >
+            <div
+              aria-describedby="DndDescribedBy-3"
+              aria-disabled="false"
+              aria-roledescription="draggable"
+              role="button"
+              style="z-index: 11; position: absolute; opacity: 1; pointer-events: auto;"
+              tabindex="0"
+            >
+              <div
+                class="HotbarIcon contextMenuAvailable"
+              >
+                <div
+                  class="Avatar rounded disabled avatar"
+                  id="hotbarIcon-hotbar-icon-catalog-entity"
+                  style="width: 40px; height: 40px; background: rgb(36, 110, 28);"
+                >
+                  Ca
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="HotbarCell animateDown"
+            index="2"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="3"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="4"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="5"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="6"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="7"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="8"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="9"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="10"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="11"
+          />
+          <div
+            id="DndDescribedBy-3"
+            style="display: none;"
+          >
+            
+    To pick up a draggable item, press the space bar.
+    While dragging, use the arrow keys to move the item.
+    Press space again to drop the item in its new position, or press escape to cancel.
+  
+          </div>
+          <div
+            aria-atomic="true"
+            aria-live="assertive"
+            id="DndLiveRegion-3"
+            role="status"
+            style="position: fixed; top: 0px; left: 0px; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip: rect(0px); clip-path: inset(100%); white-space: nowrap;"
+          />
+        </div>
+        <div
+          class="HotbarSelector"
+        >
+          <i
+            class="Icon material interactive focusable"
+            tabindex="0"
+          >
+            <span
+              class="icon"
+              data-icon-name="arrow_left"
+            >
+              arrow_left
+            </span>
+          </i>
+          <div
+            class="HotbarIndex"
+          >
+            <div
+              class="badge Badge small clickable"
+              data-testid="hotbar-menu-badge-for-Default"
+              id="hotbarIndex"
+            >
+              1
+            </div>
+          </div>
+          <i
+            class="Icon material interactive focusable"
+            tabindex="0"
+          >
+            <span
+              class="icon"
+              data-icon-name="arrow_right"
+            >
+              arrow_right
+            </span>
+          </i>
+        </div>
+      </div>
+      <div
+        class="StatusBar"
+        data-testid="status-bar"
+      >
+        <div
+          class="leftSide"
+          data-testid="status-bar-left"
+        />
+        <div
+          class="rightSide"
+          data-testid="status-bar-right"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="Animate opacity-scale Dialog flex items-center justify-center dialog modal enter"
+    data-testid="delete-cluster-dialog"
+    style="--enter-duration: 100ms; --leave-duration: 100ms;"
+  >
+    <div
+      class="dialog-content"
+    >
+      <div
+        class="dialogContent"
+      >
+        <div>
+          Delete the 
+          <b>
+            some-non-current-context
+          </b>
+           context from 
+          <b>
+            ./temp-kube-config
+          </b>
+          ?
+        </div>
+        <div
+          class="warning"
+        >
+          <i
+            class="Icon warningIcon material focusable"
+          >
+            <span
+              class="icon"
+              data-icon-name="warning_amber"
+            >
+              warning_amber
+            </span>
+          </i>
+          <p
+            data-testid="kubeconfig-change-warning"
+          >
+            The contents of kubeconfig file will be changed!
+          </p>
+        </div>
+        <hr
+          class="hr"
+        />
+        <div
+          class="mt-4"
+        >
+          <label
+            class="Checkbox flex items-center"
+          >
+            <input
+              data-testid="delete-cluster-dialog-context-switch"
+              type="checkbox"
+            />
+            <i
+              class="check-icon flex items-center"
+            />
+            <span
+              class="label"
+            >
+              <span
+                class="font-semibold"
+              >
+                Select current-context
+              </span>
+               
+              (optional)
+            </span>
+          </label>
+        </div>
+      </div>
+      <div
+        class="dialogButtons"
+      >
+        <button
+          class="Button plain"
+          type="button"
+        >
+          Cancel
+        </button>
+        <button
+          class="Button accent"
+          type="button"
+        >
+          Delete Context
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when the dialog is opened for not the current cluster > when context switching checkbox is clicked > renders 1`] = `
+<body>
+  <div>
+    <div
+      class="Notifications"
+    />
+    <div
+      class="ClusterManager"
+    >
+      <div
+        class="topBar"
+      >
+        <div
+          class="items"
+        >
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive focusable"
+              data-testid="home-button"
+              tabindex="0"
+            >
+              <span
+                class="icon"
+                data-icon-name="home"
+              >
+                home
+              </span>
+            </i>
+          </div>
+          <div
+            class="size-sm"
+          />
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive disabled focusable"
+              data-testid="history-back"
+            >
+              <span
+                class="icon"
+                data-icon-name="arrow_back"
+              >
+                arrow_back
+              </span>
+            </i>
+          </div>
+          <div
+            class="size-sm"
+          />
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive disabled focusable"
+              data-testid="history-forward"
+            >
+              <span
+                class="icon"
+                data-icon-name="arrow_forward"
+              >
+                arrow_forward
+              </span>
+            </i>
+          </div>
+          <div
+            class="separator"
+          />
+        </div>
+      </div>
+      <main>
+        <div
+          id="lens-views"
+        />
+        <div
+          class="mainLayout"
+          style="--sidebar-width: 200px;"
+        >
+          <div
+            class="sidebar"
+          >
+            <div
+              class="flex flex-col w-full"
+            >
+              <div
+                class="catalog"
+              >
+                Catalog
+              </div>
+              <ul
+                class="treeView"
+                role="tree"
+              >
+                <li
+                  class="root selected treeItem"
+                  data-testid="*-tab"
+                  role="treeitem"
+                >
+                  <div
+                    class="iconContainer"
+                  />
+                  <div
+                    class="label"
+                  >
+                    Browse
+                  </div>
+                </li>
+                <div
+                  class="HorizontalLine size-xxs"
+                />
+                <li
+                  class="root treeGroup"
+                  role="group"
+                >
+                  <div
+                    class="group"
+                  >
+                    <div
+                      class="iconContainer"
+                    >
+                      <i
+                        class="Icon material focusable"
+                      >
+                        <span
+                          class="icon"
+                          data-icon-name="expand_more"
+                        >
+                          expand_more
+                        </span>
+                      </i>
+                    </div>
+                    <div
+                      class="label"
+                    >
+                      <div
+                        class="parent"
+                      >
+                        Categories
+                      </div>
+                    </div>
+                  </div>
+                  <ul
+                    class="contents expanded"
+                  >
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/General-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="settings"
+                          >
+                            settings
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            General
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/KubernetesCluster-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon svg focusable small"
+                        >
+                          <span
+                            class="icon"
+                          >
+                            <!--?xml version="1.0" encoding="utf-8" ?-->
+                            
+
+                            <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            
+
+                            <svg
+                              id="Layer_1"
+                              style="enable-background:new 0 0 256 249;"
+                              version="1.1"
+                              viewBox="0 0 256 249"
+                              x="0px"
+                              xml:space="preserve"
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              y="0px"
+                            >
+                              
+  
+                              <style
+                                type="text/css"
+                              >
+                                
+  .st0 {
+    fill: #ffffff;
+  }
+  
+                              </style>
+                              
+  
+                              <path
+                                class="st0"
+                                d="M247.7,151.3L247.7,151.3L247.7,151.3C247.4,151.3,247.4,151.3,247.7,151.3h-0.2c-0.2,0-0.5,0-0.5-0.2
+	c-0.5,0-1-0.2-1.4-0.2c-1.7-0.2-3.1-0.5-4.5-0.5c-0.7,0-1.4,0-2.4-0.2h-0.2c-5-0.5-9-1-12.8-2.1c-1.7-0.7-2.1-1.7-2.6-2.6
+	c0-0.2-0.2-0.2-0.2-0.5l0,0l-3.1-1c1.4-10.9,1-22.3-1.7-33.5c-2.6-11.2-7.1-21.6-13.3-31.1l2.4-2.1v-0.5c0-1.2,0.2-2.4,1.2-3.6
+	c2.9-2.6,6.4-4.8,10.7-7.4l0,0c0.7-0.5,1.4-0.7,2.1-1.2c1.4-0.7,2.6-1.4,4-2.4c0.2-0.2,0.7-0.5,1.2-1c0.2-0.2,0.5-0.2,0.5-0.5l0,0
+	c3.3-2.9,4-7.6,1.7-10.7c-1.2-1.7-3.3-2.6-5.5-2.6c-1.9,0-3.6,0.7-5.2,1.9l0,0l0,0c-0.2,0.2-0.2,0.2-0.5,0.5c-0.5,0.2-0.7,0.7-1.2,1
+	c-1.2,1.2-2.1,2.1-3.1,3.3c-0.5,0.5-1,1.2-1.7,1.7l0,0c-3.3,3.6-6.4,6.4-9.5,8.6c-0.7,0.5-1.4,0.7-2.1,0.7c-0.5,0-1,0-1.4-0.2h-0.5
+	l0,0l-2.9,1.9c-3.1-3.3-6.4-6.2-9.7-9c-14.3-11.2-31.6-18.1-49.6-19.7l-0.2-3.1c-0.2-0.2-0.2-0.2-0.5-0.5c-0.7-0.7-1.7-1.4-1.9-3.1
+	c-0.2-3.8,0.2-8.1,0.7-12.8v-0.2c0-0.7,0.2-1.7,0.5-2.4c0.2-1.4,0.5-2.9,0.7-4.5V10V9.3l0,0l0,0c0-4.3-3.3-7.8-7.4-7.8
+	c-1.9,0-3.8,1-5.2,2.4c-1.4,1.4-2.1,3.3-2.1,5.5l0,0l0,0v0.5v1.4c0,1.7,0.2,3.1,0.7,4.5c0.2,0.7,0.2,1.4,0.5,2.4v0.2
+	c0.5,4.8,1.2,9,0.7,12.8c-0.2,1.7-1.2,2.4-1.9,3.1c-0.2,0.2-0.2,0.2-0.5,0.5l0,0l-0.2,3.1c-4.3,0.5-8.6,1-12.8,1.9
+	c-18.3,4-34.4,13.3-47,26.6l-2.4-1.7h-0.5c-0.5,0-1,0.2-1.4,0.2c-0.7,0-1.4-0.2-2.1-0.7c-3.1-2.1-6.2-5.2-9.5-8.8l0,0
+	c-0.5-0.5-1-1.2-1.7-1.7c-1-1.2-1.9-2.1-3.1-3.3c-0.2-0.2-0.7-0.5-1.2-1c-0.2-0.2-0.5-0.2-0.5-0.5l0,0c-1.4-1.2-3.3-1.9-5.2-1.9
+	c-2.1,0-4.3,1-5.5,2.6c-2.4,3.1-1.7,7.8,1.7,10.7l0,0l0,0c0.2,0,0.2,0.2,0.5,0.2c0.5,0.2,0.7,0.7,1.2,1c1.4,1,2.6,1.7,4,2.4
+	c0.7,0.2,1.4,0.7,2.1,1.2l0,0c4.3,2.6,7.8,4.8,10.7,7.4c1.2,1.2,1.2,2.4,1.2,3.6v0.5l0,0l2.4,2.1c-0.5,0.7-1,1.2-1.2,1.9
+	c-11.9,18.8-16.4,40.9-13.3,62.7l-3.1,1c0,0.2-0.2,0.2-0.2,0.5c-0.5,1-1.2,1.9-2.6,2.6c-3.6,1.2-7.8,1.7-12.8,2.1h-0.2
+	c-0.7,0-1.7,0-2.4,0.2c-1.4,0-2.9,0.2-4.5,0.5c-0.5,0-1,0.2-1.4,0.2c-0.2,0-0.5,0-0.7,0.2l0,0l0,0c-4.3,1-6.9,5-6.2,8.8
+	c0.7,3.3,3.8,5.5,7.6,5.5c0.7,0,1.2,0,1.9-0.2l0,0l0,0c0.2,0,0.5,0,0.5-0.2c0.5,0,1-0.2,1.4-0.2c1.7-0.5,2.9-1,4.3-1.7
+	c0.7-0.2,1.4-0.7,2.1-1h0.2c4.5-1.7,8.6-3.1,12.4-3.6h0.5c1.4,0,2.4,0.7,3.1,1.2c0.2,0,0.2,0.2,0.5,0.2l0,0l3.3-0.5
+	c5.7,17.6,16.6,33.3,31.1,44.7c3.3,2.6,6.7,4.8,10.2,6.9l-1.4,3.1c0,0.2,0.2,0.2,0.2,0.5c0.5,1,1,2.1,0.5,3.8
+	c-1.4,3.6-3.6,7.1-6.2,11.2v0.2c-0.5,0.7-1,1.2-1.4,1.9c-1,1.2-1.7,2.4-2.6,3.8c-0.2,0.2-0.5,0.7-0.7,1.2c0,0.2-0.2,0.5-0.2,0.5l0,0
+	l0,0c-1.9,4-0.5,8.6,3.1,10.2c1,0.5,1.9,0.7,2.9,0.7c2.9,0,5.7-1.9,7.1-4.5l0,0l0,0c0-0.2,0.2-0.5,0.2-0.5c0.2-0.5,0.5-1,0.7-1.2
+	c0.7-1.7,1-2.9,1.4-4.3c0.2-0.7,0.5-1.4,0.7-2.1l0,0c1.7-4.8,2.9-8.6,5-11.9c1-1.4,2.1-1.7,3.1-2.1c0.2,0,0.2,0,0.5-0.2l0,0l1.7-3.1
+	c10.5,4,21.9,6.2,33.3,6.2c6.9,0,14-0.7,20.7-2.4c4.3-1,8.3-2.1,12.4-3.6l1.4,2.6c0.2,0,0.2,0,0.5,0.2c1.2,0.2,2.1,0.7,3.1,2.1
+	c1.9,3.3,3.3,7.4,5,11.9v0.2c0.2,0.7,0.5,1.4,0.7,2.1c0.5,1.4,0.7,2.9,1.4,4.3c0.2,0.5,0.5,0.7,0.7,1.2c0,0.2,0.2,0.5,0.2,0.5l0,0
+	l0,0c1.4,2.9,4.3,4.5,7.1,4.5c1,0,1.9-0.2,2.9-0.7c1.7-1,3.1-2.4,3.6-4.3s0.5-4-0.5-5.9l0,0l0,0c0-0.2-0.2-0.2-0.2-0.5
+	c-0.2-0.5-0.5-1-0.7-1.2c-0.7-1.4-1.7-2.6-2.6-3.8c-0.5-0.7-1-1.2-1.4-1.9V229c-2.6-4-5-7.6-6.2-11.2c-0.5-1.7,0-2.6,0.2-3.8
+	c0-0.2,0.2-0.2,0.2-0.5l0,0l-1.2-2.9c12.6-7.4,23.3-17.8,31.4-30.6c4.3-6.7,7.6-14,10-21.4l2.9,0.5c0.2,0,0.2-0.2,0.5-0.2
+	c1-0.5,1.7-1.2,3.1-1.2h0.5c3.8,0.5,7.8,1.9,12.4,3.6h0.2c0.7,0.2,1.4,0.7,2.1,1c1.4,0.7,2.6,1.2,4.3,1.7c0.5,0,1,0.2,1.4,0.2
+	c0.2,0,0.5,0,0.7,0.2l0,0c0.7,0.2,1.2,0.2,1.9,0.2c3.6,0,6.7-2.4,7.6-5.5C254.6,156.3,251.9,152.5,247.7,151.3L247.7,151.3z
+	 M137.7,139.7l-10.5,5l-10.5-5l-2.6-11.2l7.1-9h11.6l7.1,9L137.7,139.7L137.7,139.7z M199.7,115c1.9,8.1,2.4,16.2,1.7,24L165,128.5
+	c-3.3-1-5.2-4.3-4.5-7.6c0.2-1,0.7-1.9,1.4-2.6l28.7-25.9C194.7,99.1,197.8,106.7,199.7,115L199.7,115z M179.3,78.2l-31.1,22.1
+	c-2.6,1.7-6.2,1.2-8.3-1.4c-0.7-0.7-1-1.7-1.2-2.6l-2.1-38.7C152.9,59.4,167.8,66.8,179.3,78.2L179.3,78.2z M110.4,58.7
+	c2.6-0.5,5-1,7.6-1.4l-2.1,38c-0.2,3.3-2.9,6.2-6.4,6.2c-1,0-2.1-0.2-2.9-0.7L75,78.2C84.7,68.4,96.8,61.8,110.4,58.7L110.4,58.7z
+	 M63.6,92.4l28.3,25.2c2.6,2.1,2.9,6.2,0.7,8.8c-0.7,1-1.7,1.7-2.9,1.9L52.9,139C51.4,122.8,55,106.4,63.6,92.4L63.6,92.4z
+	 M57.1,156.8l37.8-6.4c3.1-0.2,5.9,1.9,6.7,5c0.2,1.4,0.2,2.6-0.2,3.8l0,0l-14.5,34.9C73.5,185.6,62.8,172.5,57.1,156.8L57.1,156.8z
+	 M143.9,204.1c-5.5,1.2-10.9,1.9-16.6,1.9c-8.3,0-16.4-1.4-24-3.8l18.8-34c1.9-2.1,5-3.1,7.6-1.7c1.2,0.7,2.1,1.7,2.9,2.6l0,0
+	l18.3,33C148.6,202.9,146.2,203.4,143.9,204.1L143.9,204.1z M190.2,171.1c-5.9,9.5-13.8,17.1-22.8,23l-15-35.9
+	c-0.7-2.9,0.5-5.9,3.3-7.4c1-0.5,2.1-0.7,3.3-0.7l38,6.4C195.6,161.8,193.3,166.5,190.2,171.1L190.2,171.1z"
+                              />
+                              
+
+                            </svg>
+                            
+
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            Clusters
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/WebLink-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="public"
+                          >
+                            public
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            Web Links
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="ResizingAnchor horizontal trailing"
+            />
+          </div>
+          <div
+            class="contents"
+          >
+            <div
+              class="views"
+            >
+              <div
+                class="ItemListLayout flex flex-col Catalog"
+                data-testid="catalog-list-for-browse-all"
+              >
+                <div
+                  class="header flex gap-4 items-center"
+                >
+                  <h5
+                    class="title"
+                  >
+                    Browse All
+                  </h5>
+                  <div
+                    class="info-panel grow shrink-0 basis-0"
+                  >
+                    0 items
+                  </div>
+                  <div
+                    style="display: flex; align-items: center; gap: 8px;"
+                  >
+                    <div
+                      class="Input SearchInput"
+                    >
+                      <label
+                        class="input-area flex items-center gap-2"
+                        id=""
+                      >
+                        <input
+                          class="input grow"
+                          placeholder="Search..."
+                          spellcheck="false"
+                          value=""
+                        />
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="search"
+                          >
+                            search
+                          </span>
+                        </i>
+                      </label>
+                      <div
+                        class="input-info flex gap-2"
+                      />
+                    </div>
+                    <i
+                      class="Icon material interactive focusable small"
+                      tabindex="0"
+                    >
+                      <span
+                        class="icon"
+                        data-icon-name="link_off"
+                      >
+                        link_off
+                      </span>
+                    </i>
+                    <div>
+                      Link search (shared)
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="items grow shrink-0 basis-0 flex flex-col"
+                >
+                  <div
+                    class="Table flex flex-col Catalog grow shrink-0 basis-0 dark selectable scrollable sortable autoSize virtual"
+                  >
+                    <div
+                      class="TableHead sticky nowrap topLine"
+                    >
+                      <div
+                        class="TableCell entityName nowrap sorting"
+                        id="name"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Name
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell nowrap sorting"
+                        data-testid="catalog-kind-column"
+                        id="kind"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Kind
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell sourceCell nowrap sorting"
+                        data-testid="catalog-source-column"
+                        id="source"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Source
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell labelsCell scrollable nowrap"
+                        data-testid="catalog-labels-column"
+                        id="labels"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Labels
+                        </div>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell statusCell nowrap sorting"
+                        data-testid="catalog-status-column"
+                        id="status"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Status
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell menu nowrap"
+                      >
+                        <div
+                          class="content"
+                        >
+                          <i
+                            class="Icon material interactive focusable"
+                            id="menu-actions-for-item-object-list-content"
+                            tabindex="0"
+                          >
+                            <span
+                              class="icon"
+                              data-icon-name="more_vert"
+                            >
+                              more_vert
+                            </span>
+                          </i>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="NoItems flex grow shrink-0 basis-0"
+                    >
+                      <div
+                        class="m-auto"
+                      >
+                        Item list is empty
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="AddRemoveButtons flex gap-2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="footer"
+          />
+        </div>
+      </main>
+      <div
+        class="HotbarMenu flex flex-col"
+      >
+        <div
+          class="HotbarItems flex flex-col"
+        >
+          <div
+            class="HotbarCell animateDown"
+            index="0"
+          >
+            <div
+              aria-describedby="DndDescribedBy-6"
+              aria-disabled="false"
+              aria-roledescription="draggable"
+              role="button"
+              style="z-index: 12; position: absolute; opacity: 1; pointer-events: auto;"
+              tabindex="0"
+            >
+              <div
+                class="HotbarIcon contextMenuAvailable"
+              >
+                <div
+                  class="Avatar rounded disabled avatar"
+                  id="hotbarIcon-hotbar-icon-welcome-page-entity"
+                  style="width: 40px; height: 40px; background: rgb(110, 77, 28);"
+                >
+                  WP
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="HotbarCell animateDown"
+            index="1"
+          >
+            <div
+              aria-describedby="DndDescribedBy-6"
+              aria-disabled="false"
+              aria-roledescription="draggable"
+              role="button"
+              style="z-index: 11; position: absolute; opacity: 1; pointer-events: auto;"
+              tabindex="0"
+            >
+              <div
+                class="HotbarIcon contextMenuAvailable"
+              >
+                <div
+                  class="Avatar rounded disabled avatar"
+                  id="hotbarIcon-hotbar-icon-catalog-entity"
+                  style="width: 40px; height: 40px; background: rgb(36, 110, 28);"
+                >
+                  Ca
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="HotbarCell animateDown"
+            index="2"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="3"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="4"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="5"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="6"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="7"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="8"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="9"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="10"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="11"
+          />
+          <div
+            id="DndDescribedBy-6"
+            style="display: none;"
+          >
+            
+    To pick up a draggable item, press the space bar.
+    While dragging, use the arrow keys to move the item.
+    Press space again to drop the item in its new position, or press escape to cancel.
+  
+          </div>
+          <div
+            aria-atomic="true"
+            aria-live="assertive"
+            id="DndLiveRegion-6"
+            role="status"
+            style="position: fixed; top: 0px; left: 0px; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip: rect(0px); clip-path: inset(100%); white-space: nowrap;"
+          />
+        </div>
+        <div
+          class="HotbarSelector"
+        >
+          <i
+            class="Icon material interactive focusable"
+            tabindex="0"
+          >
+            <span
+              class="icon"
+              data-icon-name="arrow_left"
+            >
+              arrow_left
+            </span>
+          </i>
+          <div
+            class="HotbarIndex"
+          >
+            <div
+              class="badge Badge small clickable"
+              data-testid="hotbar-menu-badge-for-Default"
+              id="hotbarIndex"
+            >
+              1
+            </div>
+          </div>
+          <i
+            class="Icon material interactive focusable"
+            tabindex="0"
+          >
+            <span
+              class="icon"
+              data-icon-name="arrow_right"
+            >
+              arrow_right
+            </span>
+          </i>
+        </div>
+      </div>
+      <div
+        class="StatusBar"
+        data-testid="status-bar"
+      >
+        <div
+          class="leftSide"
+          data-testid="status-bar-left"
+        />
+        <div
+          class="rightSide"
+          data-testid="status-bar-right"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="Animate opacity-scale Dialog flex items-center justify-center dialog modal enter"
+    data-testid="delete-cluster-dialog"
+    style="--enter-duration: 100ms; --leave-duration: 100ms;"
+  >
+    <div
+      class="dialog-content"
+    >
+      <div
+        class="dialogContent"
+      >
+        <div>
+          Delete the 
+          <b>
+            some-non-current-context
+          </b>
+           context from 
+          <b>
+            ./temp-kube-config
+          </b>
+          ?
+        </div>
+        <div
+          class="warning"
+        >
+          <i
+            class="Icon warningIcon material focusable"
+          >
+            <span
+              class="icon"
+              data-icon-name="warning_amber"
+            >
+              warning_amber
+            </span>
+          </i>
+          <p
+            data-testid="kubeconfig-change-warning"
+          >
+            The contents of kubeconfig file will be changed!
+          </p>
+        </div>
+        <hr
+          class="hr"
+        />
+        <div
+          class="mt-4"
+        >
+          <label
+            class="Checkbox flex items-center checked"
+          >
+            <input
+              data-testid="delete-cluster-dialog-context-switch"
+              type="checkbox"
+            />
+            <i
+              class="check-icon flex items-center"
+            />
+            <span
+              class="label"
+            >
+              <span
+                class="font-semibold"
+              >
+                Select current-context
+              </span>
+               
+              (optional)
+            </span>
+          </label>
+        </div>
+        <div
+          class="mt-4"
+        >
+          <div
+            class="Select theme-lens ml-[1px] mr-[1px] css-b62m3t-container"
+          >
+            <span
+              class="css-1f43avz-a11yText-A11yText"
+              id="react-select-delete-cluster-input-live-region"
+            />
+            <span
+              aria-atomic="false"
+              aria-live="polite"
+              aria-relevant="additions text"
+              class="css-1f43avz-a11yText-A11yText"
+              role="log"
+            />
+            <div
+              class="Select__control css-13cymwt-control"
+            >
+              <div
+                class="Select__value-container css-hlgwow"
+              >
+                <div
+                  class="Select__placeholder css-1jqq78o-placeholder"
+                  id="react-select-delete-cluster-input-placeholder"
+                >
+                  Select new context...
+                </div>
+                <div
+                  class="Select__input-container css-19bb58m"
+                  data-value=""
+                >
+                  <input
+                    aria-activedescendant=""
+                    aria-autocomplete="list"
+                    aria-describedby="react-select-delete-cluster-input-placeholder"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    autocapitalize="none"
+                    autocomplete="off"
+                    autocorrect="off"
+                    class="Select__input"
+                    id="delete-cluster-input"
+                    role="combobox"
+                    spellcheck="false"
+                    style="color: inherit; background: 0px center; opacity: 1; width: 100%; grid-area: 1 / 2; font: inherit; min-width: 2px; border: 0px; margin: 0px; outline: 0px; padding: 0px;"
+                    tabindex="0"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="Select__indicators css-1wy0on6"
+              >
+                <span
+                  class="Select__indicator-separator css-1u9des2-indicatorSeparator"
+                />
+                <div
+                  aria-hidden="true"
+                  class="Select__indicator Select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="css-tj5bde-Svg"
+                    focusable="false"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    width="20"
+                  >
+                    <path
+                      d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="dialogButtons"
+      >
+        <button
+          class="Button plain"
+          type="button"
+        >
+          Cancel
+        </button>
+        <button
+          class="Button accent"
+          disabled=""
+          type="button"
+        >
+          Delete Context
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Deleting a cluster > when the kubeconfig has multiple clusters > when the dialog is opened for the current cluster > renders 1`] = `
+<body>
+  <div>
+    <div
+      class="Notifications"
+    />
+    <div
+      class="ClusterManager"
+    >
+      <div
+        class="topBar"
+      >
+        <div
+          class="items"
+        >
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive focusable"
+              data-testid="home-button"
+              tabindex="0"
+            >
+              <span
+                class="icon"
+                data-icon-name="home"
+              >
+                home
+              </span>
+            </i>
+          </div>
+          <div
+            class="size-sm"
+          />
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive disabled focusable"
+              data-testid="history-back"
+            >
+              <span
+                class="icon"
+                data-icon-name="arrow_back"
+              >
+                arrow_back
+              </span>
+            </i>
+          </div>
+          <div
+            class="size-sm"
+          />
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive disabled focusable"
+              data-testid="history-forward"
+            >
+              <span
+                class="icon"
+                data-icon-name="arrow_forward"
+              >
+                arrow_forward
+              </span>
+            </i>
+          </div>
+          <div
+            class="separator"
+          />
+        </div>
+      </div>
+      <main>
+        <div
+          id="lens-views"
+        />
+        <div
+          class="mainLayout"
+          style="--sidebar-width: 200px;"
+        >
+          <div
+            class="sidebar"
+          >
+            <div
+              class="flex flex-col w-full"
+            >
+              <div
+                class="catalog"
+              >
+                Catalog
+              </div>
+              <ul
+                class="treeView"
+                role="tree"
+              >
+                <li
+                  class="root selected treeItem"
+                  data-testid="*-tab"
+                  role="treeitem"
+                >
+                  <div
+                    class="iconContainer"
+                  />
+                  <div
+                    class="label"
+                  >
+                    Browse
+                  </div>
+                </li>
+                <div
+                  class="HorizontalLine size-xxs"
+                />
+                <li
+                  class="root treeGroup"
+                  role="group"
+                >
+                  <div
+                    class="group"
+                  >
+                    <div
+                      class="iconContainer"
+                    >
+                      <i
+                        class="Icon material focusable"
+                      >
+                        <span
+                          class="icon"
+                          data-icon-name="expand_more"
+                        >
+                          expand_more
+                        </span>
+                      </i>
+                    </div>
+                    <div
+                      class="label"
+                    >
+                      <div
+                        class="parent"
+                      >
+                        Categories
+                      </div>
+                    </div>
+                  </div>
+                  <ul
+                    class="contents expanded"
+                  >
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/General-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="settings"
+                          >
+                            settings
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            General
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/KubernetesCluster-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon svg focusable small"
+                        >
+                          <span
+                            class="icon"
+                          >
+                            <!--?xml version="1.0" encoding="utf-8" ?-->
+                            
+
+                            <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            
+
+                            <svg
+                              id="Layer_1"
+                              style="enable-background:new 0 0 256 249;"
+                              version="1.1"
+                              viewBox="0 0 256 249"
+                              x="0px"
+                              xml:space="preserve"
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              y="0px"
+                            >
+                              
+  
+                              <style
+                                type="text/css"
+                              >
+                                
+  .st0 {
+    fill: #ffffff;
+  }
+  
+                              </style>
+                              
+  
+                              <path
+                                class="st0"
+                                d="M247.7,151.3L247.7,151.3L247.7,151.3C247.4,151.3,247.4,151.3,247.7,151.3h-0.2c-0.2,0-0.5,0-0.5-0.2
+	c-0.5,0-1-0.2-1.4-0.2c-1.7-0.2-3.1-0.5-4.5-0.5c-0.7,0-1.4,0-2.4-0.2h-0.2c-5-0.5-9-1-12.8-2.1c-1.7-0.7-2.1-1.7-2.6-2.6
+	c0-0.2-0.2-0.2-0.2-0.5l0,0l-3.1-1c1.4-10.9,1-22.3-1.7-33.5c-2.6-11.2-7.1-21.6-13.3-31.1l2.4-2.1v-0.5c0-1.2,0.2-2.4,1.2-3.6
+	c2.9-2.6,6.4-4.8,10.7-7.4l0,0c0.7-0.5,1.4-0.7,2.1-1.2c1.4-0.7,2.6-1.4,4-2.4c0.2-0.2,0.7-0.5,1.2-1c0.2-0.2,0.5-0.2,0.5-0.5l0,0
+	c3.3-2.9,4-7.6,1.7-10.7c-1.2-1.7-3.3-2.6-5.5-2.6c-1.9,0-3.6,0.7-5.2,1.9l0,0l0,0c-0.2,0.2-0.2,0.2-0.5,0.5c-0.5,0.2-0.7,0.7-1.2,1
+	c-1.2,1.2-2.1,2.1-3.1,3.3c-0.5,0.5-1,1.2-1.7,1.7l0,0c-3.3,3.6-6.4,6.4-9.5,8.6c-0.7,0.5-1.4,0.7-2.1,0.7c-0.5,0-1,0-1.4-0.2h-0.5
+	l0,0l-2.9,1.9c-3.1-3.3-6.4-6.2-9.7-9c-14.3-11.2-31.6-18.1-49.6-19.7l-0.2-3.1c-0.2-0.2-0.2-0.2-0.5-0.5c-0.7-0.7-1.7-1.4-1.9-3.1
+	c-0.2-3.8,0.2-8.1,0.7-12.8v-0.2c0-0.7,0.2-1.7,0.5-2.4c0.2-1.4,0.5-2.9,0.7-4.5V10V9.3l0,0l0,0c0-4.3-3.3-7.8-7.4-7.8
+	c-1.9,0-3.8,1-5.2,2.4c-1.4,1.4-2.1,3.3-2.1,5.5l0,0l0,0v0.5v1.4c0,1.7,0.2,3.1,0.7,4.5c0.2,0.7,0.2,1.4,0.5,2.4v0.2
+	c0.5,4.8,1.2,9,0.7,12.8c-0.2,1.7-1.2,2.4-1.9,3.1c-0.2,0.2-0.2,0.2-0.5,0.5l0,0l-0.2,3.1c-4.3,0.5-8.6,1-12.8,1.9
+	c-18.3,4-34.4,13.3-47,26.6l-2.4-1.7h-0.5c-0.5,0-1,0.2-1.4,0.2c-0.7,0-1.4-0.2-2.1-0.7c-3.1-2.1-6.2-5.2-9.5-8.8l0,0
+	c-0.5-0.5-1-1.2-1.7-1.7c-1-1.2-1.9-2.1-3.1-3.3c-0.2-0.2-0.7-0.5-1.2-1c-0.2-0.2-0.5-0.2-0.5-0.5l0,0c-1.4-1.2-3.3-1.9-5.2-1.9
+	c-2.1,0-4.3,1-5.5,2.6c-2.4,3.1-1.7,7.8,1.7,10.7l0,0l0,0c0.2,0,0.2,0.2,0.5,0.2c0.5,0.2,0.7,0.7,1.2,1c1.4,1,2.6,1.7,4,2.4
+	c0.7,0.2,1.4,0.7,2.1,1.2l0,0c4.3,2.6,7.8,4.8,10.7,7.4c1.2,1.2,1.2,2.4,1.2,3.6v0.5l0,0l2.4,2.1c-0.5,0.7-1,1.2-1.2,1.9
+	c-11.9,18.8-16.4,40.9-13.3,62.7l-3.1,1c0,0.2-0.2,0.2-0.2,0.5c-0.5,1-1.2,1.9-2.6,2.6c-3.6,1.2-7.8,1.7-12.8,2.1h-0.2
+	c-0.7,0-1.7,0-2.4,0.2c-1.4,0-2.9,0.2-4.5,0.5c-0.5,0-1,0.2-1.4,0.2c-0.2,0-0.5,0-0.7,0.2l0,0l0,0c-4.3,1-6.9,5-6.2,8.8
+	c0.7,3.3,3.8,5.5,7.6,5.5c0.7,0,1.2,0,1.9-0.2l0,0l0,0c0.2,0,0.5,0,0.5-0.2c0.5,0,1-0.2,1.4-0.2c1.7-0.5,2.9-1,4.3-1.7
+	c0.7-0.2,1.4-0.7,2.1-1h0.2c4.5-1.7,8.6-3.1,12.4-3.6h0.5c1.4,0,2.4,0.7,3.1,1.2c0.2,0,0.2,0.2,0.5,0.2l0,0l3.3-0.5
+	c5.7,17.6,16.6,33.3,31.1,44.7c3.3,2.6,6.7,4.8,10.2,6.9l-1.4,3.1c0,0.2,0.2,0.2,0.2,0.5c0.5,1,1,2.1,0.5,3.8
+	c-1.4,3.6-3.6,7.1-6.2,11.2v0.2c-0.5,0.7-1,1.2-1.4,1.9c-1,1.2-1.7,2.4-2.6,3.8c-0.2,0.2-0.5,0.7-0.7,1.2c0,0.2-0.2,0.5-0.2,0.5l0,0
+	l0,0c-1.9,4-0.5,8.6,3.1,10.2c1,0.5,1.9,0.7,2.9,0.7c2.9,0,5.7-1.9,7.1-4.5l0,0l0,0c0-0.2,0.2-0.5,0.2-0.5c0.2-0.5,0.5-1,0.7-1.2
+	c0.7-1.7,1-2.9,1.4-4.3c0.2-0.7,0.5-1.4,0.7-2.1l0,0c1.7-4.8,2.9-8.6,5-11.9c1-1.4,2.1-1.7,3.1-2.1c0.2,0,0.2,0,0.5-0.2l0,0l1.7-3.1
+	c10.5,4,21.9,6.2,33.3,6.2c6.9,0,14-0.7,20.7-2.4c4.3-1,8.3-2.1,12.4-3.6l1.4,2.6c0.2,0,0.2,0,0.5,0.2c1.2,0.2,2.1,0.7,3.1,2.1
+	c1.9,3.3,3.3,7.4,5,11.9v0.2c0.2,0.7,0.5,1.4,0.7,2.1c0.5,1.4,0.7,2.9,1.4,4.3c0.2,0.5,0.5,0.7,0.7,1.2c0,0.2,0.2,0.5,0.2,0.5l0,0
+	l0,0c1.4,2.9,4.3,4.5,7.1,4.5c1,0,1.9-0.2,2.9-0.7c1.7-1,3.1-2.4,3.6-4.3s0.5-4-0.5-5.9l0,0l0,0c0-0.2-0.2-0.2-0.2-0.5
+	c-0.2-0.5-0.5-1-0.7-1.2c-0.7-1.4-1.7-2.6-2.6-3.8c-0.5-0.7-1-1.2-1.4-1.9V229c-2.6-4-5-7.6-6.2-11.2c-0.5-1.7,0-2.6,0.2-3.8
+	c0-0.2,0.2-0.2,0.2-0.5l0,0l-1.2-2.9c12.6-7.4,23.3-17.8,31.4-30.6c4.3-6.7,7.6-14,10-21.4l2.9,0.5c0.2,0,0.2-0.2,0.5-0.2
+	c1-0.5,1.7-1.2,3.1-1.2h0.5c3.8,0.5,7.8,1.9,12.4,3.6h0.2c0.7,0.2,1.4,0.7,2.1,1c1.4,0.7,2.6,1.2,4.3,1.7c0.5,0,1,0.2,1.4,0.2
+	c0.2,0,0.5,0,0.7,0.2l0,0c0.7,0.2,1.2,0.2,1.9,0.2c3.6,0,6.7-2.4,7.6-5.5C254.6,156.3,251.9,152.5,247.7,151.3L247.7,151.3z
+	 M137.7,139.7l-10.5,5l-10.5-5l-2.6-11.2l7.1-9h11.6l7.1,9L137.7,139.7L137.7,139.7z M199.7,115c1.9,8.1,2.4,16.2,1.7,24L165,128.5
+	c-3.3-1-5.2-4.3-4.5-7.6c0.2-1,0.7-1.9,1.4-2.6l28.7-25.9C194.7,99.1,197.8,106.7,199.7,115L199.7,115z M179.3,78.2l-31.1,22.1
+	c-2.6,1.7-6.2,1.2-8.3-1.4c-0.7-0.7-1-1.7-1.2-2.6l-2.1-38.7C152.9,59.4,167.8,66.8,179.3,78.2L179.3,78.2z M110.4,58.7
+	c2.6-0.5,5-1,7.6-1.4l-2.1,38c-0.2,3.3-2.9,6.2-6.4,6.2c-1,0-2.1-0.2-2.9-0.7L75,78.2C84.7,68.4,96.8,61.8,110.4,58.7L110.4,58.7z
+	 M63.6,92.4l28.3,25.2c2.6,2.1,2.9,6.2,0.7,8.8c-0.7,1-1.7,1.7-2.9,1.9L52.9,139C51.4,122.8,55,106.4,63.6,92.4L63.6,92.4z
+	 M57.1,156.8l37.8-6.4c3.1-0.2,5.9,1.9,6.7,5c0.2,1.4,0.2,2.6-0.2,3.8l0,0l-14.5,34.9C73.5,185.6,62.8,172.5,57.1,156.8L57.1,156.8z
+	 M143.9,204.1c-5.5,1.2-10.9,1.9-16.6,1.9c-8.3,0-16.4-1.4-24-3.8l18.8-34c1.9-2.1,5-3.1,7.6-1.7c1.2,0.7,2.1,1.7,2.9,2.6l0,0
+	l18.3,33C148.6,202.9,146.2,203.4,143.9,204.1L143.9,204.1z M190.2,171.1c-5.9,9.5-13.8,17.1-22.8,23l-15-35.9
+	c-0.7-2.9,0.5-5.9,3.3-7.4c1-0.5,2.1-0.7,3.3-0.7l38,6.4C195.6,161.8,193.3,166.5,190.2,171.1L190.2,171.1z"
+                              />
+                              
+
+                            </svg>
+                            
+
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            Clusters
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/WebLink-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="public"
+                          >
+                            public
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            Web Links
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="ResizingAnchor horizontal trailing"
+            />
+          </div>
+          <div
+            class="contents"
+          >
+            <div
+              class="views"
+            >
+              <div
+                class="ItemListLayout flex flex-col Catalog"
+                data-testid="catalog-list-for-browse-all"
+              >
+                <div
+                  class="header flex gap-4 items-center"
+                >
+                  <h5
+                    class="title"
+                  >
+                    Browse All
+                  </h5>
+                  <div
+                    class="info-panel grow shrink-0 basis-0"
+                  >
+                    0 items
+                  </div>
+                  <div
+                    style="display: flex; align-items: center; gap: 8px;"
+                  >
+                    <div
+                      class="Input SearchInput focused"
+                    >
+                      <label
+                        class="input-area flex items-center gap-2"
+                        id=""
+                      >
+                        <input
+                          class="input grow"
+                          placeholder="Search..."
+                          spellcheck="false"
+                          value=""
+                        />
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="search"
+                          >
+                            search
+                          </span>
+                        </i>
+                      </label>
+                      <div
+                        class="input-info flex gap-2"
+                      />
+                    </div>
+                    <i
+                      class="Icon material interactive focusable small"
+                      tabindex="0"
+                    >
+                      <span
+                        class="icon"
+                        data-icon-name="link_off"
+                      >
+                        link_off
+                      </span>
+                    </i>
+                    <div>
+                      Link search (shared)
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="items grow shrink-0 basis-0 flex flex-col"
+                >
+                  <div
+                    class="Table flex flex-col Catalog grow shrink-0 basis-0 dark selectable scrollable sortable autoSize virtual"
+                  >
+                    <div
+                      class="TableHead sticky nowrap topLine"
+                    >
+                      <div
+                        class="TableCell entityName nowrap sorting"
+                        id="name"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Name
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell nowrap sorting"
+                        data-testid="catalog-kind-column"
+                        id="kind"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Kind
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell sourceCell nowrap sorting"
+                        data-testid="catalog-source-column"
+                        id="source"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Source
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell labelsCell scrollable nowrap"
+                        data-testid="catalog-labels-column"
+                        id="labels"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Labels
+                        </div>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell statusCell nowrap sorting"
+                        data-testid="catalog-status-column"
+                        id="status"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Status
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell menu nowrap"
+                      >
+                        <div
+                          class="content"
+                        >
+                          <i
+                            class="Icon material interactive focusable"
+                            id="menu-actions-for-item-object-list-content"
+                            tabindex="0"
+                          >
+                            <span
+                              class="icon"
+                              data-icon-name="more_vert"
+                            >
+                              more_vert
+                            </span>
+                          </i>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="NoItems flex grow shrink-0 basis-0"
+                    >
+                      <div
+                        class="m-auto"
+                      >
+                        Item list is empty
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="AddRemoveButtons flex gap-2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="footer"
+          />
+        </div>
+      </main>
+      <div
+        class="HotbarMenu flex flex-col"
+      >
+        <div
+          class="HotbarItems flex flex-col"
+        >
+          <div
+            class="HotbarCell animateDown"
+            index="0"
+          >
+            <div
+              aria-describedby="DndDescribedBy-0"
+              aria-disabled="false"
+              aria-roledescription="draggable"
+              role="button"
+              style="z-index: 12; position: absolute; opacity: 1; pointer-events: auto;"
+              tabindex="0"
+            >
+              <div
+                class="HotbarIcon contextMenuAvailable"
+              >
+                <div
+                  class="Avatar rounded disabled avatar"
+                  id="hotbarIcon-hotbar-icon-welcome-page-entity"
+                  style="width: 40px; height: 40px; background: rgb(110, 77, 28);"
+                >
+                  WP
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="HotbarCell animateDown"
+            index="1"
+          >
+            <div
+              aria-describedby="DndDescribedBy-0"
+              aria-disabled="false"
+              aria-roledescription="draggable"
+              role="button"
+              style="z-index: 11; position: absolute; opacity: 1; pointer-events: auto;"
+              tabindex="0"
+            >
+              <div
+                class="HotbarIcon contextMenuAvailable"
+              >
+                <div
+                  class="Avatar rounded disabled avatar"
+                  id="hotbarIcon-hotbar-icon-catalog-entity"
+                  style="width: 40px; height: 40px; background: rgb(36, 110, 28);"
+                >
+                  Ca
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="HotbarCell animateDown"
+            index="2"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="3"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="4"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="5"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="6"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="7"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="8"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="9"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="10"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="11"
+          />
+          <div
+            id="DndDescribedBy-0"
+            style="display: none;"
+          >
+            
+    To pick up a draggable item, press the space bar.
+    While dragging, use the arrow keys to move the item.
+    Press space again to drop the item in its new position, or press escape to cancel.
+  
+          </div>
+          <div
+            aria-atomic="true"
+            aria-live="assertive"
+            id="DndLiveRegion-0"
+            role="status"
+            style="position: fixed; top: 0px; left: 0px; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip: rect(0px); clip-path: inset(100%); white-space: nowrap;"
+          />
+        </div>
+        <div
+          class="HotbarSelector"
+        >
+          <i
+            class="Icon material interactive focusable"
+            tabindex="0"
+          >
+            <span
+              class="icon"
+              data-icon-name="arrow_left"
+            >
+              arrow_left
+            </span>
+          </i>
+          <div
+            class="HotbarIndex"
+          >
+            <div
+              class="badge Badge small clickable"
+              data-testid="hotbar-menu-badge-for-Default"
+              id="hotbarIndex"
+            >
+              1
+            </div>
+          </div>
+          <i
+            class="Icon material interactive focusable"
+            tabindex="0"
+          >
+            <span
+              class="icon"
+              data-icon-name="arrow_right"
+            >
+              arrow_right
+            </span>
+          </i>
+        </div>
+      </div>
+      <div
+        class="StatusBar"
+        data-testid="status-bar"
+      >
+        <div
+          class="leftSide"
+          data-testid="status-bar-left"
+        />
+        <div
+          class="rightSide"
+          data-testid="status-bar-right"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="Animate opacity-scale Dialog flex items-center justify-center dialog modal enter"
+    data-testid="delete-cluster-dialog"
+    style="--enter-duration: 100ms; --leave-duration: 100ms;"
+  >
+    <div
+      class="dialog-content"
+    >
+      <div
+        class="dialogContent"
+      >
+        <div>
+          Delete the 
+          <b>
+            some-current-context
+          </b>
+           context from 
+          <b>
+            ./temp-kube-config
+          </b>
+          ?
+        </div>
+        <div
+          class="warning"
+        >
+          <i
+            class="Icon warningIcon material focusable"
+          >
+            <span
+              class="icon"
+              data-icon-name="warning_amber"
+            >
+              warning_amber
+            </span>
+          </i>
+          <p
+            data-testid="current-context-warning"
+          >
+            This will remove active context in kubeconfig. Use drop down below to select a different one.
+          </p>
+        </div>
+        <hr
+          class="hr"
+        />
+        <div
+          class="mt-4"
+        >
+          <label
+            class="Checkbox flex items-center checked"
+          >
+            <input
+              checked=""
+              data-testid="delete-cluster-dialog-context-switch"
+              type="checkbox"
+            />
+            <i
+              class="check-icon flex items-center"
+            />
+            <span
+              class="label"
+            >
+              <span
+                class="font-semibold"
+              >
+                Select current-context
+              </span>
+               
+            </span>
+          </label>
+        </div>
+        <div
+          class="mt-4"
+        >
+          <div
+            class="Select theme-lens ml-[1px] mr-[1px] css-b62m3t-container"
+          >
+            <span
+              class="css-1f43avz-a11yText-A11yText"
+              id="react-select-delete-cluster-input-live-region"
+            />
+            <span
+              aria-atomic="false"
+              aria-live="polite"
+              aria-relevant="additions text"
+              class="css-1f43avz-a11yText-A11yText"
+              role="log"
+            />
+            <div
+              class="Select__control css-13cymwt-control"
+            >
+              <div
+                class="Select__value-container css-hlgwow"
+              >
+                <div
+                  class="Select__placeholder css-1jqq78o-placeholder"
+                  id="react-select-delete-cluster-input-placeholder"
+                >
+                  Select new context...
+                </div>
+                <div
+                  class="Select__input-container css-19bb58m"
+                  data-value=""
+                >
+                  <input
+                    aria-activedescendant=""
+                    aria-autocomplete="list"
+                    aria-describedby="react-select-delete-cluster-input-placeholder"
+                    aria-expanded="false"
+                    aria-haspopup="true"
+                    autocapitalize="none"
+                    autocomplete="off"
+                    autocorrect="off"
+                    class="Select__input"
+                    id="delete-cluster-input"
+                    role="combobox"
+                    spellcheck="false"
+                    style="color: inherit; background: 0px center; opacity: 1; width: 100%; grid-area: 1 / 2; font: inherit; min-width: 2px; border: 0px; margin: 0px; outline: 0px; padding: 0px;"
+                    tabindex="0"
+                    type="text"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                class="Select__indicators css-1wy0on6"
+              >
+                <span
+                  class="Select__indicator-separator css-1u9des2-indicatorSeparator"
+                />
+                <div
+                  aria-hidden="true"
+                  class="Select__indicator Select__dropdown-indicator css-1xc3v61-indicatorContainer"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="css-tj5bde-Svg"
+                    focusable="false"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    width="20"
+                  >
+                    <path
+                      d="M4.516 7.548c0.436-0.446 1.043-0.481 1.576 0l3.908 3.747 3.908-3.747c0.533-0.481 1.141-0.446 1.574 0 0.436 0.445 0.408 1.197 0 1.615-0.406 0.418-4.695 4.502-4.695 4.502-0.217 0.223-0.502 0.335-0.787 0.335s-0.57-0.112-0.789-0.335c0 0-4.287-4.084-4.695-4.502s-0.436-1.17 0-1.615z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="dialogButtons"
+      >
+        <button
+          class="Button plain"
+          type="button"
+        >
+          Cancel
+        </button>
+        <button
+          class="Button accent"
+          disabled=""
+          type="button"
+        >
+          Delete Context
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;
+
+exports[`Deleting a cluster > when the kubeconfig has only one cluster > when the dialog is opened > renders 1`] = `
+<body>
+  <div>
+    <div
+      class="Notifications"
+    />
+    <div
+      class="ClusterManager"
+    >
+      <div
+        class="topBar"
+      >
+        <div
+          class="items"
+        >
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive focusable"
+              data-testid="home-button"
+              tabindex="0"
+            >
+              <span
+                class="icon"
+                data-icon-name="home"
+              >
+                home
+              </span>
+            </i>
+          </div>
+          <div
+            class="size-sm"
+          />
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive disabled focusable"
+              data-testid="history-back"
+            >
+              <span
+                class="icon"
+                data-icon-name="arrow_back"
+              >
+                arrow_back
+              </span>
+            </i>
+          </div>
+          <div
+            class="size-sm"
+          />
+          <div
+            class="preventedDragging"
+          >
+            <i
+              class="Icon material interactive disabled focusable"
+              data-testid="history-forward"
+            >
+              <span
+                class="icon"
+                data-icon-name="arrow_forward"
+              >
+                arrow_forward
+              </span>
+            </i>
+          </div>
+          <div
+            class="separator"
+          />
+        </div>
+      </div>
+      <main>
+        <div
+          id="lens-views"
+        />
+        <div
+          class="mainLayout"
+          style="--sidebar-width: 200px;"
+        >
+          <div
+            class="sidebar"
+          >
+            <div
+              class="flex flex-col w-full"
+            >
+              <div
+                class="catalog"
+              >
+                Catalog
+              </div>
+              <ul
+                class="treeView"
+                role="tree"
+              >
+                <li
+                  class="root selected treeItem"
+                  data-testid="*-tab"
+                  role="treeitem"
+                >
+                  <div
+                    class="iconContainer"
+                  />
+                  <div
+                    class="label"
+                  >
+                    Browse
+                  </div>
+                </li>
+                <div
+                  class="HorizontalLine size-xxs"
+                />
+                <li
+                  class="root treeGroup"
+                  role="group"
+                >
+                  <div
+                    class="group"
+                  >
+                    <div
+                      class="iconContainer"
+                    >
+                      <i
+                        class="Icon material focusable"
+                      >
+                        <span
+                          class="icon"
+                          data-icon-name="expand_more"
+                        >
+                          expand_more
+                        </span>
+                      </i>
+                    </div>
+                    <div
+                      class="label"
+                    >
+                      <div
+                        class="parent"
+                      >
+                        Categories
+                      </div>
+                    </div>
+                  </div>
+                  <ul
+                    class="contents expanded"
+                  >
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/General-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="settings"
+                          >
+                            settings
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            General
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/KubernetesCluster-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon svg focusable small"
+                        >
+                          <span
+                            class="icon"
+                          >
+                            <!--?xml version="1.0" encoding="utf-8" ?-->
+                            
+
+                            <!-- Generator: Adobe Illustrator 20.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                            
+
+                            <svg
+                              id="Layer_1"
+                              style="enable-background:new 0 0 256 249;"
+                              version="1.1"
+                              viewBox="0 0 256 249"
+                              x="0px"
+                              xml:space="preserve"
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              y="0px"
+                            >
+                              
+  
+                              <style
+                                type="text/css"
+                              >
+                                
+  .st0 {
+    fill: #ffffff;
+  }
+  
+                              </style>
+                              
+  
+                              <path
+                                class="st0"
+                                d="M247.7,151.3L247.7,151.3L247.7,151.3C247.4,151.3,247.4,151.3,247.7,151.3h-0.2c-0.2,0-0.5,0-0.5-0.2
+	c-0.5,0-1-0.2-1.4-0.2c-1.7-0.2-3.1-0.5-4.5-0.5c-0.7,0-1.4,0-2.4-0.2h-0.2c-5-0.5-9-1-12.8-2.1c-1.7-0.7-2.1-1.7-2.6-2.6
+	c0-0.2-0.2-0.2-0.2-0.5l0,0l-3.1-1c1.4-10.9,1-22.3-1.7-33.5c-2.6-11.2-7.1-21.6-13.3-31.1l2.4-2.1v-0.5c0-1.2,0.2-2.4,1.2-3.6
+	c2.9-2.6,6.4-4.8,10.7-7.4l0,0c0.7-0.5,1.4-0.7,2.1-1.2c1.4-0.7,2.6-1.4,4-2.4c0.2-0.2,0.7-0.5,1.2-1c0.2-0.2,0.5-0.2,0.5-0.5l0,0
+	c3.3-2.9,4-7.6,1.7-10.7c-1.2-1.7-3.3-2.6-5.5-2.6c-1.9,0-3.6,0.7-5.2,1.9l0,0l0,0c-0.2,0.2-0.2,0.2-0.5,0.5c-0.5,0.2-0.7,0.7-1.2,1
+	c-1.2,1.2-2.1,2.1-3.1,3.3c-0.5,0.5-1,1.2-1.7,1.7l0,0c-3.3,3.6-6.4,6.4-9.5,8.6c-0.7,0.5-1.4,0.7-2.1,0.7c-0.5,0-1,0-1.4-0.2h-0.5
+	l0,0l-2.9,1.9c-3.1-3.3-6.4-6.2-9.7-9c-14.3-11.2-31.6-18.1-49.6-19.7l-0.2-3.1c-0.2-0.2-0.2-0.2-0.5-0.5c-0.7-0.7-1.7-1.4-1.9-3.1
+	c-0.2-3.8,0.2-8.1,0.7-12.8v-0.2c0-0.7,0.2-1.7,0.5-2.4c0.2-1.4,0.5-2.9,0.7-4.5V10V9.3l0,0l0,0c0-4.3-3.3-7.8-7.4-7.8
+	c-1.9,0-3.8,1-5.2,2.4c-1.4,1.4-2.1,3.3-2.1,5.5l0,0l0,0v0.5v1.4c0,1.7,0.2,3.1,0.7,4.5c0.2,0.7,0.2,1.4,0.5,2.4v0.2
+	c0.5,4.8,1.2,9,0.7,12.8c-0.2,1.7-1.2,2.4-1.9,3.1c-0.2,0.2-0.2,0.2-0.5,0.5l0,0l-0.2,3.1c-4.3,0.5-8.6,1-12.8,1.9
+	c-18.3,4-34.4,13.3-47,26.6l-2.4-1.7h-0.5c-0.5,0-1,0.2-1.4,0.2c-0.7,0-1.4-0.2-2.1-0.7c-3.1-2.1-6.2-5.2-9.5-8.8l0,0
+	c-0.5-0.5-1-1.2-1.7-1.7c-1-1.2-1.9-2.1-3.1-3.3c-0.2-0.2-0.7-0.5-1.2-1c-0.2-0.2-0.5-0.2-0.5-0.5l0,0c-1.4-1.2-3.3-1.9-5.2-1.9
+	c-2.1,0-4.3,1-5.5,2.6c-2.4,3.1-1.7,7.8,1.7,10.7l0,0l0,0c0.2,0,0.2,0.2,0.5,0.2c0.5,0.2,0.7,0.7,1.2,1c1.4,1,2.6,1.7,4,2.4
+	c0.7,0.2,1.4,0.7,2.1,1.2l0,0c4.3,2.6,7.8,4.8,10.7,7.4c1.2,1.2,1.2,2.4,1.2,3.6v0.5l0,0l2.4,2.1c-0.5,0.7-1,1.2-1.2,1.9
+	c-11.9,18.8-16.4,40.9-13.3,62.7l-3.1,1c0,0.2-0.2,0.2-0.2,0.5c-0.5,1-1.2,1.9-2.6,2.6c-3.6,1.2-7.8,1.7-12.8,2.1h-0.2
+	c-0.7,0-1.7,0-2.4,0.2c-1.4,0-2.9,0.2-4.5,0.5c-0.5,0-1,0.2-1.4,0.2c-0.2,0-0.5,0-0.7,0.2l0,0l0,0c-4.3,1-6.9,5-6.2,8.8
+	c0.7,3.3,3.8,5.5,7.6,5.5c0.7,0,1.2,0,1.9-0.2l0,0l0,0c0.2,0,0.5,0,0.5-0.2c0.5,0,1-0.2,1.4-0.2c1.7-0.5,2.9-1,4.3-1.7
+	c0.7-0.2,1.4-0.7,2.1-1h0.2c4.5-1.7,8.6-3.1,12.4-3.6h0.5c1.4,0,2.4,0.7,3.1,1.2c0.2,0,0.2,0.2,0.5,0.2l0,0l3.3-0.5
+	c5.7,17.6,16.6,33.3,31.1,44.7c3.3,2.6,6.7,4.8,10.2,6.9l-1.4,3.1c0,0.2,0.2,0.2,0.2,0.5c0.5,1,1,2.1,0.5,3.8
+	c-1.4,3.6-3.6,7.1-6.2,11.2v0.2c-0.5,0.7-1,1.2-1.4,1.9c-1,1.2-1.7,2.4-2.6,3.8c-0.2,0.2-0.5,0.7-0.7,1.2c0,0.2-0.2,0.5-0.2,0.5l0,0
+	l0,0c-1.9,4-0.5,8.6,3.1,10.2c1,0.5,1.9,0.7,2.9,0.7c2.9,0,5.7-1.9,7.1-4.5l0,0l0,0c0-0.2,0.2-0.5,0.2-0.5c0.2-0.5,0.5-1,0.7-1.2
+	c0.7-1.7,1-2.9,1.4-4.3c0.2-0.7,0.5-1.4,0.7-2.1l0,0c1.7-4.8,2.9-8.6,5-11.9c1-1.4,2.1-1.7,3.1-2.1c0.2,0,0.2,0,0.5-0.2l0,0l1.7-3.1
+	c10.5,4,21.9,6.2,33.3,6.2c6.9,0,14-0.7,20.7-2.4c4.3-1,8.3-2.1,12.4-3.6l1.4,2.6c0.2,0,0.2,0,0.5,0.2c1.2,0.2,2.1,0.7,3.1,2.1
+	c1.9,3.3,3.3,7.4,5,11.9v0.2c0.2,0.7,0.5,1.4,0.7,2.1c0.5,1.4,0.7,2.9,1.4,4.3c0.2,0.5,0.5,0.7,0.7,1.2c0,0.2,0.2,0.5,0.2,0.5l0,0
+	l0,0c1.4,2.9,4.3,4.5,7.1,4.5c1,0,1.9-0.2,2.9-0.7c1.7-1,3.1-2.4,3.6-4.3s0.5-4-0.5-5.9l0,0l0,0c0-0.2-0.2-0.2-0.2-0.5
+	c-0.2-0.5-0.5-1-0.7-1.2c-0.7-1.4-1.7-2.6-2.6-3.8c-0.5-0.7-1-1.2-1.4-1.9V229c-2.6-4-5-7.6-6.2-11.2c-0.5-1.7,0-2.6,0.2-3.8
+	c0-0.2,0.2-0.2,0.2-0.5l0,0l-1.2-2.9c12.6-7.4,23.3-17.8,31.4-30.6c4.3-6.7,7.6-14,10-21.4l2.9,0.5c0.2,0,0.2-0.2,0.5-0.2
+	c1-0.5,1.7-1.2,3.1-1.2h0.5c3.8,0.5,7.8,1.9,12.4,3.6h0.2c0.7,0.2,1.4,0.7,2.1,1c1.4,0.7,2.6,1.2,4.3,1.7c0.5,0,1,0.2,1.4,0.2
+	c0.2,0,0.5,0,0.7,0.2l0,0c0.7,0.2,1.2,0.2,1.9,0.2c3.6,0,6.7-2.4,7.6-5.5C254.6,156.3,251.9,152.5,247.7,151.3L247.7,151.3z
+	 M137.7,139.7l-10.5,5l-10.5-5l-2.6-11.2l7.1-9h11.6l7.1,9L137.7,139.7L137.7,139.7z M199.7,115c1.9,8.1,2.4,16.2,1.7,24L165,128.5
+	c-3.3-1-5.2-4.3-4.5-7.6c0.2-1,0.7-1.9,1.4-2.6l28.7-25.9C194.7,99.1,197.8,106.7,199.7,115L199.7,115z M179.3,78.2l-31.1,22.1
+	c-2.6,1.7-6.2,1.2-8.3-1.4c-0.7-0.7-1-1.7-1.2-2.6l-2.1-38.7C152.9,59.4,167.8,66.8,179.3,78.2L179.3,78.2z M110.4,58.7
+	c2.6-0.5,5-1,7.6-1.4l-2.1,38c-0.2,3.3-2.9,6.2-6.4,6.2c-1,0-2.1-0.2-2.9-0.7L75,78.2C84.7,68.4,96.8,61.8,110.4,58.7L110.4,58.7z
+	 M63.6,92.4l28.3,25.2c2.6,2.1,2.9,6.2,0.7,8.8c-0.7,1-1.7,1.7-2.9,1.9L52.9,139C51.4,122.8,55,106.4,63.6,92.4L63.6,92.4z
+	 M57.1,156.8l37.8-6.4c3.1-0.2,5.9,1.9,6.7,5c0.2,1.4,0.2,2.6-0.2,3.8l0,0l-14.5,34.9C73.5,185.6,62.8,172.5,57.1,156.8L57.1,156.8z
+	 M143.9,204.1c-5.5,1.2-10.9,1.9-16.6,1.9c-8.3,0-16.4-1.4-24-3.8l18.8-34c1.9-2.1,5-3.1,7.6-1.7c1.2,0.7,2.1,1.7,2.9,2.6l0,0
+	l18.3,33C148.6,202.9,146.2,203.4,143.9,204.1L143.9,204.1z M190.2,171.1c-5.9,9.5-13.8,17.1-22.8,23l-15-35.9
+	c-0.7-2.9,0.5-5.9,3.3-7.4c1-0.5,2.1-0.7,3.3-0.7l38,6.4C195.6,161.8,193.3,166.5,190.2,171.1L190.2,171.1z"
+                              />
+                              
+
+                            </svg>
+                            
+
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            Clusters
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li
+                      class="root treeItem"
+                      data-testid="entity.k8slens.dev/WebLink-tab"
+                      role="treeitem"
+                    >
+                      <div
+                        class="iconContainer"
+                      >
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="public"
+                          >
+                            public
+                          </span>
+                        </i>
+                      </div>
+                      <div
+                        class="label"
+                      >
+                        <div
+                          class="flex"
+                        >
+                          <div>
+                            Web Links
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <div
+              class="ResizingAnchor horizontal trailing"
+            />
+          </div>
+          <div
+            class="contents"
+          >
+            <div
+              class="views"
+            >
+              <div
+                class="ItemListLayout flex flex-col Catalog"
+                data-testid="catalog-list-for-browse-all"
+              >
+                <div
+                  class="header flex gap-4 items-center"
+                >
+                  <h5
+                    class="title"
+                  >
+                    Browse All
+                  </h5>
+                  <div
+                    class="info-panel grow shrink-0 basis-0"
+                  >
+                    0 items
+                  </div>
+                  <div
+                    style="display: flex; align-items: center; gap: 8px;"
+                  >
+                    <div
+                      class="Input SearchInput"
+                    >
+                      <label
+                        class="input-area flex items-center gap-2"
+                        id=""
+                      >
+                        <input
+                          class="input grow"
+                          placeholder="Search..."
+                          spellcheck="false"
+                          value=""
+                        />
+                        <i
+                          class="Icon material focusable small"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="search"
+                          >
+                            search
+                          </span>
+                        </i>
+                      </label>
+                      <div
+                        class="input-info flex gap-2"
+                      />
+                    </div>
+                    <i
+                      class="Icon material interactive focusable small"
+                      tabindex="0"
+                    >
+                      <span
+                        class="icon"
+                        data-icon-name="link_off"
+                      >
+                        link_off
+                      </span>
+                    </i>
+                    <div>
+                      Link search (shared)
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="items grow shrink-0 basis-0 flex flex-col"
+                >
+                  <div
+                    class="Table flex flex-col Catalog grow shrink-0 basis-0 dark selectable scrollable sortable autoSize virtual"
+                  >
+                    <div
+                      class="TableHead sticky nowrap topLine"
+                    >
+                      <div
+                        class="TableCell entityName nowrap sorting"
+                        id="name"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Name
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell nowrap sorting"
+                        data-testid="catalog-kind-column"
+                        id="kind"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Kind
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell sourceCell nowrap sorting"
+                        data-testid="catalog-source-column"
+                        id="source"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Source
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell labelsCell scrollable nowrap"
+                        data-testid="catalog-labels-column"
+                        id="labels"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Labels
+                        </div>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell statusCell nowrap sorting"
+                        data-testid="catalog-status-column"
+                        id="status"
+                      >
+                        <div
+                          class="content"
+                        >
+                          Status
+                        </div>
+                        <i
+                          class="Icon sortIcon material focusable"
+                        >
+                          <span
+                            class="icon"
+                            data-icon-name="arrow_drop_down"
+                          >
+                            arrow_drop_down
+                          </span>
+                        </i>
+                        <div
+                          class="resize-handle"
+                        />
+                      </div>
+                      <div
+                        class="TableCell menu nowrap"
+                      >
+                        <div
+                          class="content"
+                        >
+                          <i
+                            class="Icon material interactive focusable"
+                            id="menu-actions-for-item-object-list-content"
+                            tabindex="0"
+                          >
+                            <span
+                              class="icon"
+                              data-icon-name="more_vert"
+                            >
+                              more_vert
+                            </span>
+                          </i>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="NoItems flex grow shrink-0 basis-0"
+                    >
+                      <div
+                        class="m-auto"
+                      >
+                        Item list is empty
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="AddRemoveButtons flex gap-2"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="footer"
+          />
+        </div>
+      </main>
+      <div
+        class="HotbarMenu flex flex-col"
+      >
+        <div
+          class="HotbarItems flex flex-col"
+        >
+          <div
+            class="HotbarCell animateDown"
+            index="0"
+          >
+            <div
+              aria-describedby="DndDescribedBy-10"
+              aria-disabled="false"
+              aria-roledescription="draggable"
+              role="button"
+              style="z-index: 12; position: absolute; opacity: 1; pointer-events: auto;"
+              tabindex="0"
+            >
+              <div
+                class="HotbarIcon contextMenuAvailable"
+              >
+                <div
+                  class="Avatar rounded disabled avatar"
+                  id="hotbarIcon-hotbar-icon-welcome-page-entity"
+                  style="width: 40px; height: 40px; background: rgb(110, 77, 28);"
+                >
+                  WP
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="HotbarCell animateDown"
+            index="1"
+          >
+            <div
+              aria-describedby="DndDescribedBy-10"
+              aria-disabled="false"
+              aria-roledescription="draggable"
+              role="button"
+              style="z-index: 11; position: absolute; opacity: 1; pointer-events: auto;"
+              tabindex="0"
+            >
+              <div
+                class="HotbarIcon contextMenuAvailable"
+              >
+                <div
+                  class="Avatar rounded disabled avatar"
+                  id="hotbarIcon-hotbar-icon-catalog-entity"
+                  style="width: 40px; height: 40px; background: rgb(36, 110, 28);"
+                >
+                  Ca
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="HotbarCell animateDown"
+            index="2"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="3"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="4"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="5"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="6"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="7"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="8"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="9"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="10"
+          />
+          <div
+            class="HotbarCell animateDown"
+            index="11"
+          />
+          <div
+            id="DndDescribedBy-10"
+            style="display: none;"
+          >
+            
+    To pick up a draggable item, press the space bar.
+    While dragging, use the arrow keys to move the item.
+    Press space again to drop the item in its new position, or press escape to cancel.
+  
+          </div>
+          <div
+            aria-atomic="true"
+            aria-live="assertive"
+            id="DndLiveRegion-10"
+            role="status"
+            style="position: fixed; top: 0px; left: 0px; width: 1px; height: 1px; margin: -1px; border: 0px; padding: 0px; overflow: hidden; clip: rect(0px); clip-path: inset(100%); white-space: nowrap;"
+          />
+        </div>
+        <div
+          class="HotbarSelector"
+        >
+          <i
+            class="Icon material interactive focusable"
+            tabindex="0"
+          >
+            <span
+              class="icon"
+              data-icon-name="arrow_left"
+            >
+              arrow_left
+            </span>
+          </i>
+          <div
+            class="HotbarIndex"
+          >
+            <div
+              class="badge Badge small clickable"
+              data-testid="hotbar-menu-badge-for-Default"
+              id="hotbarIndex"
+            >
+              1
+            </div>
+          </div>
+          <i
+            class="Icon material interactive focusable"
+            tabindex="0"
+          >
+            <span
+              class="icon"
+              data-icon-name="arrow_right"
+            >
+              arrow_right
+            </span>
+          </i>
+        </div>
+      </div>
+      <div
+        class="StatusBar"
+        data-testid="status-bar"
+      >
+        <div
+          class="leftSide"
+          data-testid="status-bar-left"
+        />
+        <div
+          class="rightSide"
+          data-testid="status-bar-right"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="Animate opacity-scale Dialog flex items-center justify-center dialog modal enter"
+    data-testid="delete-cluster-dialog"
+    style="--enter-duration: 100ms; --leave-duration: 100ms;"
+  >
+    <div
+      class="dialog-content"
+    >
+      <div
+        class="dialogContent"
+      >
+        <div>
+          Delete the 
+          <b>
+            some-context
+          </b>
+           context from 
+          <b>
+            ./temp-kube-config
+          </b>
+          ?
+        </div>
+        <div
+          class="warning"
+        >
+          <i
+            class="Icon warningIcon material focusable"
+          >
+            <span
+              class="icon"
+              data-icon-name="warning_amber"
+            >
+              warning_amber
+            </span>
+          </i>
+          <p
+            data-testid="no-more-contexts-warning"
+          >
+            This will remove the last context in kubeconfig. There will be no active context.
+          </p>
+        </div>
+      </div>
+      <div
+        class="dialogButtons"
+      >
+        <button
+          class="Button plain"
+          type="button"
+        >
+          Cancel
+        </button>
+        <button
+          class="Button accent"
+          type="button"
+        >
+          Delete Context
+        </button>
+      </div>
+    </div>
+  </div>
+</body>
+`;
