@@ -1,0 +1,288 @@
+# Freelens development
+
+## Build from the source
+
+You can build the application using this repository.
+
+### Prerequisites
+
+The only native module Freelens uses is
+[node-pty](https://www.npmjs.com/package/node-pty), which ships prebuilt,
+ABI-stable (N-API) binaries for every platform we support. There is therefore
+no need for a C/C++ compiler, Python, or Visual Studio build tools to build or
+run the app.
+
+On Linux you still need the shared libraries Electron requires at runtime, for
+example:
+
+```sh
+# Debian/Ubuntu
+apt install libnss3
+```
+
+Use [NVM](https://github.com/nvm-sh/nvm) or
+[mise-en-place](https://mise.jdx.dev/) or
+[windows-nvm](https://github.com/nvm-windows/nvm) to install the
+required Node.js version.
+
+From the root of this repository:
+
+```sh
+nvm install
+# or
+mise settings add idiomatic_version_file_enable_tools node
+mise install
+# or
+winget install CoreyButler.NVMforWindows
+nvm install 24.22.0
+nvm use 24.22.0
+```
+
+Install Pnpm (if is not yet installed with mise-en-place):
+
+```sh
+corepack enable pnpm
+# or
+mise exec -- corepack enable pnpm
+# or
+curl -fsSL https://get.pnpm.io/install.sh | sh -
+# or
+winget install pnpm.pnpm
+```
+
+### Build app
+
+```sh
+pnpm i
+pnpm build:di           # Generate DI registration files
+pnpm build              # Build all packages
+pnpm build:app:dir      # Build Electron app directory
+# note: on Windows build:app:dir must be ran in elevated mode
+```
+
+Run it from the directory:
+
+```sh
+pnpm start
+```
+
+### Clean build
+
+If you encounter build or runtime issues, try a clean rebuild:
+
+```sh
+rm -rf .turbo packages/core/dist freelens/dist
+pnpm build:di
+pnpm build
+```
+
+### Bundled binaries
+
+`pnpm build:binaries` in `freelens/` downloads `freelens-k8s-proxy`, `kubectl`
+and `helm`. Their versions live in the `config` block of
+`freelens/package.json`, and their exact digests are pinned in
+`freelens/binaries.lock.json`. The build verifies every download against that
+lock rather than against a checksum served by the same host as the artifact, so
+bumping a version without regenerating the lock fails the build:
+
+```sh
+pnpm update-binaries-lock
+```
+
+Regenerating downloads all eighteen artifacts (three tools, three platforms,
+two architectures) and verifies each against its publisher's signature — GitHub
+build provenance for freelens-k8s-proxy, PGP for helm, keyless cosign for
+kubectl — before writing the lock. Run `mise install` first so `cosign` is on
+`PATH`, and export `GITHUB_TOKEN` to avoid the 60 unauthenticated API calls per
+hour that build provenance lookups otherwise share across your whole IP. Pass
+`--only <tool>` to refresh a single tool.
+
+### Cross compilation
+
+The official binary packages are built in a native environment, however you can
+build an arm64 binary on Linux amd64 or an amd64 binary on macOS arm64.
+
+Because node-pty ships prebuilt binaries for every architecture, no native
+recompilation is required — you only need electron-builder to download Electron
+for the foreign architecture:
+
+```sh
+export DOWNLOAD_ALL_ARCHITECTURES=true
+```
+
+Then generate the binary packages for the foreign architecture:
+
+```sh
+# Debian/Ubuntu
+pnpm build:app AppImage deb --arm64
+# MacOS
+pnpm build:app dmg pkg --x64
+```
+
+## Development Workflow
+
+### Validation before commit
+
+After changing files, especially before commit, run:
+
+```sh
+trunk check
+# or, if trunk is not installed locally
+pnpm trunk:check
+```
+
+For main project TypeScript, HTML, CSS, SCSS and YAML files, you can run Biome directly:
+
+```sh
+biome check
+# or, if biome is not installed locally
+pnpm biome:check
+```
+
+For other file types, use Trunk:
+
+```sh
+trunk check
+# or, if trunk is not installed locally
+pnpm trunk:check
+```
+
+### Daily development
+
+For active development with hot module replacement:
+
+```sh
+pnpm dev         # Starts the app through electron-vite dev
+```
+
+The renderer is served by the Vite dev server (port 9191, overridable with
+`FREELENS_DEV_SERVER_PORT`) through the Freelens proxy; the main process is
+rebuilt on change. If dev mode misbehaves, the packaged-app workflow
+`pnpm build && pnpm build:app:dir && pnpm start` always works.
+
+`pnpm install` does not download the Electron binary. `pnpm dev` does it
+first, through the `predev` script, the first time it runs after an install
+or an Electron version bump; later runs see the binary is in place and skip
+it. The download is verified against the checksums shipped in the `electron`
+package. If it fails, `pnpm dev` stops before starting the app:
+
+- check network and proxy access to `github.com`, or set `ELECTRON_MIRROR`
+  to a mirror you can reach;
+- retry it on its own with `pnpm --dir freelens exec install-electron`;
+- if a broken download is cached, delete the Electron cache directory
+  (`~/.cache/electron`, `~/Library/Caches/electron` or
+  `%LOCALAPPDATA%\electron\Cache`) and retry.
+
+### Kubeconfig syncs of the dev profile
+
+`pnpm dev` runs the app in development mode, with its own `FreelensDev`
+profile in the application data directory (`~/.config/FreelensDev`,
+`~/Library/Application Support/FreelensDev` or `%APPDATA%\FreelensDev`), or
+in `$FREELENS_INTEGRATION_TESTING_DIR/FreelensDev` when that variable points
+into the system temporary directory. Unlike a production
+profile, a dev profile starts with no kubeconfig sync: it does not read your
+`~/.kube`, so the catalog shows none of your real clusters until you add them.
+
+To work with your own clusters, add `~/.kube` (or any other file or folder)
+once in Preferences > Kubernetes > Kubeconfig Syncs. To start a fresh profile
+with it already in place, preseed `lens-user-store.json` in the profile
+directory:
+
+```json
+{
+  "preferences": {
+    "syncKubeconfigEntries": [{ "filePath": "/home/me/.kube" }]
+  }
+}
+```
+
+The `filePath` must be absolute; `~` is not expanded.
+
+### Inspecting the running dev app from an AI agent (optional)
+
+The `pnpm dev` script launches Electron with `--remoteDebuggingPort 9223`, so
+the running app exposes a Chrome DevTools Protocol (CDP) endpoint. An AI coding
+agent (Claude Code, Cursor, …) can attach to it to drive and inspect the app —
+snapshot the accessibility tree, click, read the DOM, capture screenshots —
+which is useful for debugging renderer-side issues that never reach the terminal.
+
+Use a **frame-aware** CDP client. Freelens renders each cluster in a
+cross-origin `<clusterId>.renderer.freelens.app` iframe, so a tool that only
+sees the top document (e.g. `@laststance/electron-mcp-server`) can drive the
+catalog/welcome shell but is blind to everything inside a cluster (Nodes,
+Workloads, Pods, …). Playwright and Puppeteer traverse cross-origin frames and
+reach the cluster views, so prefer one of them:
+
+- [Playwright MCP](https://github.com/microsoft/playwright-mcp) — `@playwright/mcp`, connect with `--cdp-endpoint`
+- [chrome-devtools-mcp](https://github.com/ChromeDevTools/chrome-devtools-mcp) — connect with `--browser-url`
+
+This is a per-developer, opt-in tool and is intentionally **not** committed to
+`.mcp.json` (that would prompt every contributor). Add it to your own local
+Claude Code config, pointed at the dev CDP port:
+
+```sh
+# Local scope: stored per-project in ~/.claude.json, not shared
+claude mcp add playwright --scope local -- npx -y @playwright/mcp@latest --cdp-endpoint http://127.0.0.1:9223
+```
+
+Then:
+
+1. Start the app with `pnpm dev` (it must be running before the agent connects).
+2. In Claude Code, run `/mcp` to confirm the `playwright` server is connected.
+3. Ask the agent to drive the app; to reach a cluster's resources it targets the
+   `…renderer.freelens.app/…` cluster frame, not just the top page.
+
+Remove it any time with `claude mcp remove playwright --scope local`. Some MCP
+servers write runtime artifacts (screenshots, databases, keys) under `logs/` in
+the project root, which is git-ignored.
+
+### Running tests
+
+```sh
+pnpm test:unit              # Run unit tests
+pnpm test:integration       # Run integration tests
+```
+
+One unit test consumes a build artifact: the extension contract suite loads the
+built bundle of `packages/fixture-extension`. The `test:unit` scripts therefore
+run `pnpm build:fixture-extension` first, which is `turbo run build` filtered to
+that package — three tasks, and a no-op once its cache is warm. Running Vitest
+directly skips that, so build it yourself (`pnpm build:fixture-extension`, or
+any full `pnpm build`) when you do; the suite says so if you forget.
+
+### When to regenerate DI files
+
+The project uses an explicit dependency injection registration system. Run `pnpm build:di` when:
+
+- Adding new `.injectable.ts` files
+- Moving or renaming injectable files
+- Changing directory structure
+- Seeing DI-related runtime errors
+
+The build process runs this automatically, but you can run it manually to verify changes:
+
+```sh
+pnpm build:di
+```
+
+### Troubleshooting
+
+**Changes not appearing:**
+
+1. Clear cache: `rm -rf .turbo packages/core/dist freelens/dist`
+2. Full rebuild: `pnpm build && pnpm build:app:dir`
+3. Restart app: `pnpm start`
+
+**Build failures:**
+
+1. Check build errors: `pnpm build`
+2. Check linting: `pnpm lint`
+3. Verify dependencies: `pnpm install`
+4. Check Node.js version matches `.nvmrc`
+
+**Runtime errors:**
+
+- Check dev console (renderer process) or terminal output (main process)
+- For DI-related errors, try regenerating: `pnpm build:di`
+
+For more development patterns and troubleshooting, see [AGENTS.md](AGENTS.md).
